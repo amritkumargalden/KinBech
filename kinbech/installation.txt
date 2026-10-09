@@ -1,0 +1,6 @@
+pip install Flask==3.0.0
+pip install scikit-learn==1.3.0
+pip install pandas==2.0.0
+pip install numpy==1.24.0
+pip install python-dotenv==1.0.0
+pip install gunicorn==21.2.0

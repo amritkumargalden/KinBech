@@ -1,0 +1,36 @@
+<!-- templates/results.html -->
+{% extends 'base.html' %} {% block content %}
+<div class="results">
+  <h2>Price Estimate</h2>
+
+  <div class="prediction-box">
+    <h3>Estimated Listing Price</h3>
+    <p class="predicted-price">NPR {{ predicted_price }}</p>
+    <p>{{ category }} · {{ condition }} · {{ storage_gb }} GB · {{ age_years }} years old</p>
+  </div>
+
+  <div class="comparable-listings">
+    <h3>Comparable Listings</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Condition</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for listing in comparable_listings %}
+        <tr>
+          <td>{{ listing.Title }}</td>
+          <td>NPR {{ listing.Price_NPR }}</td>
+          <td>{{ listing.Condition }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="3">No comparable listings found.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

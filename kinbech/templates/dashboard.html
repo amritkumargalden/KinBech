@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+<section class="dashboard">
+  <h2>Dataset Dashboard</h2>
+  <p>Listings: {{ stats.total_listings }}</p>
+  <p>Average price: NPR {{ stats.avg_price }}</p>
+  <p>Price range: NPR {{ stats.min_price }}–{{ stats.max_price }}</p>
+  <p>Predictions this run: {{ total_predictions }}</p>
+  <h3>Listings by category</h3>
+  <ul>
+    {% for category, count in category_counts.items() %}
+    <li>{{ category }}: {{ count }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

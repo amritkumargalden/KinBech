@@ -1,0 +1,7 @@
+{% extends 'base.html' %} {% block content %}
+<section class="hero">
+  <h2>Find a fair price for second-hand items</h2>
+  <p>KinBech uses {{ total_listings }} listings from the project dataset to estimate prices for {{ categories | join(', ') }}.</p>
+  <a class="btn-primary" href="/predict">Estimate a price</a>
+</section>
+{% endblock %}

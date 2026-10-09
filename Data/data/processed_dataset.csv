@@ -1,0 +1,497 @@
+Category,Title,Price_NPR,Condition,Brand,Model,Storage_GB,Age_years,Location,Condition_num,Condition_Score,Age_months,Estimated_Original_Price,Depreciation_Rate,Value_Retention,Condition_Factor,Price_per_GB,Category_Encoded,Brand_Encoded
+Laptop,Asus TUF Gaming F15 2000GB SSD,115100,Like New,Asus,Asus TUF Gaming F15,2000,1.0,Chitwan,,9.0,12,132298.85,0.13,0.87,0.9,57.55,0,4
+Mobile,Samsung Galaxy S24 512GB,130700,Excellent,Samsung,Galaxy S24,512,0.5,Lalitpur,,8.0,6,151976.74,0.14,0.86,0.8,255.2734375,1,3
+Mobile,OnePlus 11 256GB,88300,New,OnePlus,OnePlus 11,256,1.5,Chitwan,,10.0,18,100340.91,0.12,0.88,1.0,344.921875,1,10
+Mobile,Apple iPhone 12 256GB,62100,Good,Apple,iPhone 12,256,1.0,Chitwan,,6.0,12,86250.0,0.28,0.72,0.6,242.578125,1,1
+Laptop,MSI Katana 15 2000GB SSD,49900,Used,MSI,MSI Katana 15,2000,3.0,Lalitpur,,5.0,36,97843.14,0.49,0.51,0.5,24.95,0,13
+Mobile,Samsung Galaxy A34 512GB,25400,Good,Samsung,Galaxy A34,512,1.0,Kalanki,,6.0,12,35277.78,0.28,0.72,0.6,49.609375,1,3
+Laptop,Dell XPS 13 256GB SSD,80000,Good,Dell,Dell XPS 13,256,1.5,Boudha,,6.0,18,117647.06,0.32,0.6799999999999999,0.6,312.5,0,2
+Laptop,HP 15s 512GB SSD,53600,New,HP,HP 15s,512,0.0,Butwal,,10.0,0,56421.05,0.05,0.95,1.0,104.6875,0,5
+Mobile,Xiaomi 13 256GB,64900,Like New,Xiaomi,Xiaomi 13,256,0.5,Pokhara,,9.0,6,71318.68,0.09,0.91,0.9,253.515625,1,7
+Mobile,Samsung Galaxy S22 256GB,79500,Excellent,Samsung,Galaxy S22,256,0.5,Boudha,,8.0,6,92441.86,0.14,0.86,0.8,310.546875,1,3
+Laptop,HP Envy 13 256GB SSD,53700,Fair,HP,HP Envy 13,256,1.0,Dharan,,5.0,12,80149.25,0.33,0.6699999999999999,0.5,209.765625,0,5
+Laptop,Microsoft Surface Laptop Go 3 1000GB SSD,59000,Good,Microsoft,Surface Laptop Go 3,1000,1.0,Hetauda,,6.0,12,81944.44,0.28,0.72,0.6,59.0,0,9
+Mobile,Oppo Find X6 256GB,89000,New,Oppo,Oppo Find X6,256,0.0,Lalitpur,,10.0,0,93684.21,0.05,0.95,1.0,347.65625,1,11
+Mobile,Apple iPhone 15 512GB,145800,Like New,Apple,iPhone 15,512,1.5,Chabahil,,9.0,18,175662.65,0.16999999999999998,0.8300000000000001,0.9,284.765625,1,1
+Laptop,Dell XPS 13 1000GB SSD,118700,Like New,Dell,Dell XPS 13,1000,2.0,Hetauda,,9.0,24,150253.16,0.21000000000000002,0.79,0.9,118.7,0,2
+Mobile,Realme Narzo 60 128GB,9800,Good,Realme,Realme Narzo 60,128,4.0,Baneshwor,,6.0,48,20416.67,0.52,0.48,0.6,76.5625,1,14
+Laptop,Lenovo IdeaPad Slim 3 256GB SSD,25000,Fair,Lenovo,Lenovo IdeaPad Slim 3,256,4.0,Biratnagar,,5.0,48,58139.53,0.5700000000000001,0.42999999999999994,0.5,97.65625,0,6
+Laptop,HP ProBook 440 256GB SSD,64900,Like New,HP,HP ProBook 440,256,1.0,Butwal,,9.0,12,74597.7,0.13,0.87,0.9,253.515625,0,5
+Laptop,Acer Nitro 5 2000GB SSD,71300,Good,Acer,Acer Nitro 5,2000,1.0,Bhaktapur,,6.0,12,99027.78,0.28,0.72,0.6,35.65,0,8
+Mobile,Nothing Phone 2 128GB,64300,New,Nothing,Nothing Phone 2,128,0.0,Nepalgunj,,10.0,0,67684.21,0.05,0.95,1.0,502.34375,1,0
+Mobile,Apple iPhone 15 128GB,152600,New,Apple,iPhone 15,128,1.0,Biratnagar,,10.0,12,165869.57,0.08,0.92,1.0,1192.1875,1,1
+Laptop,Microsoft Surface Laptop Go 3 1000GB SSD,46200,Good,Microsoft,Surface Laptop Go 3,1000,2.5,Hetauda,,6.0,30,77000.0,0.4,0.6,0.6,46.2,0,9
+Laptop,Apple MacBook Air M2 512GB,164500,New,Apple,MacBook Air M2,512,0.5,Biratnagar,,10.0,6,173157.89,0.05,0.95,1.0,321.2890625,0,1
+Mobile,OnePlus Nord 3 256GB,33000,Excellent,OnePlus,OnePlus Nord 3,256,1.5,Bharatpur,,8.0,18,42307.69,0.22,0.78,0.8,128.90625,1,10
+Mobile,Redmi 13C 64GB,10000,Like New,Redmi,Redmi 13C,64,2.0,Koteshwor,,9.0,24,12658.23,0.21000000000000002,0.79,0.9,156.25,1,12
+Mobile,Redmi 12 256GB,12700,Excellent,Redmi,Redmi 12,256,1.5,Butwal,,8.0,18,16282.05,0.22,0.78,0.8,49.609375,1,12
+Mobile,Samsung Galaxy S22 256GB,61900,Good,Samsung,Galaxy S22,256,1.5,Hetauda,,6.0,18,91029.41,0.32,0.6799999999999999,0.6,241.796875,1,3
+Mobile,OnePlus 10 Pro 256GB,47300,Good,OnePlus,OnePlus 10 Pro,256,2.0,Bhaktapur,,6.0,24,73906.25,0.36,0.64,0.6,184.765625,1,10
+Laptop,HP Victus 15 512GB SSD,97400,New,HP,HP Victus 15,512,1.0,Kathmandu,,10.0,12,105869.57,0.08,0.92,1.0,190.234375,0,5
+Mobile,Realme 10 Pro 64GB,11900,Good,Realme,Realme 10 Pro,64,4.0,Birgunj,,6.0,48,24791.67,0.52,0.48,0.6,185.9375,1,14
+Mobile,Redmi Note 13 64GB,18900,Excellent,Redmi,Redmi Note 13,64,0.5,Biratnagar,,8.0,6,21976.74,0.14,0.86,0.8,295.3125,1,12
+Laptop,Dell XPS 13 256GB SSD,88600,Good,Dell,Dell XPS 13,256,1.0,Nepalgunj,,6.0,12,123055.56,0.28,0.72,0.6,346.09375,0,2
+Mobile,Xiaomi 14 256GB,82700,Like New,Xiaomi,Xiaomi 14,256,1.0,Chitwan,,9.0,12,95057.47,0.13,0.87,0.9,323.046875,1,7
+Laptop,Dell Vostro 15 1000GB SSD,43900,Excellent,Dell,Dell Vostro 15,1000,1.5,Chabahil,,8.0,18,56282.05,0.22,0.78,0.8,43.9,0,2
+Mobile,Nokia C32 64GB,8000,Fair,Nokia,Nokia C32,64,4.0,Boudha,,5.0,48,18604.65,0.5700000000000001,0.42999999999999994,0.5,125.0,1,0
+Laptop,Dell Latitude 5420 1000GB SSD,75700,Excellent,Dell,Dell Latitude 5420,1000,0.5,Biratnagar,,8.0,6,88023.26,0.14,0.86,0.8,75.7,0,2
+Laptop,Apple MacBook Pro 14 M2 512GB,225600,Like New,Apple,MacBook Pro 14 M2,512,1.0,New Road,,9.0,12,259310.34,0.13,0.87,0.9,440.625,0,1
+Laptop,Apple MacBook Pro 14 M2 256GB,293300,New,Apple,MacBook Pro 14 M2,256,0.0,Kathmandu,,10.0,0,308736.84,0.05,0.95,1.0,1145.703125,0,1
+Mobile,Xiaomi Redmi Note 12 256GB,12800,Good,Xiaomi,Redmi Note 12,256,2.5,Koteshwor,,6.0,30,21333.33,0.4,0.6,0.6,50.0,1,7
+Mobile,Xiaomi Redmi Note 13 Pro 64GB,14400,Good,Xiaomi,Redmi Note 13 Pro,64,4.0,Putalisadak,,6.0,48,30000.0,0.52,0.48,0.6,225.0,1,7
+Mobile,Samsung Galaxy S21 128GB,56400,Excellent,Samsung,Galaxy S21,128,2.0,Bharatpur,,8.0,24,76216.22,0.26,0.74,0.8,440.625,1,3
+Laptop,Acer Extensa 15 256GB SSD,43500,New,Acer,Acer Extensa 15,256,0.0,Lalitpur,,10.0,0,45789.47,0.05,0.95,1.0,169.921875,0,8
+Mobile,Oppo A58 256GB,12500,Good,Oppo,Oppo A58,256,1.5,Chitwan,,6.0,18,18382.35,0.32,0.6799999999999999,0.6,48.828125,1,11
+Mobile,Nokia C32 256GB,8000,Fair,Nokia,Nokia C32,256,4.0,Hetauda,,5.0,48,18604.65,0.5700000000000001,0.42999999999999994,0.5,31.25,1,0
+Laptop,Lenovo Legion 5 2000GB SSD,179300,New,Lenovo,Lenovo Legion 5,2000,0.0,Boudha,,10.0,0,188736.84,0.05,0.95,1.0,89.65,0,6
+Laptop,Microsoft Surface Pro 9 256GB SSD,114600,Excellent,Microsoft,Surface Pro 9,256,1.0,Putalisadak,,8.0,12,139756.1,0.18,0.8200000000000001,0.8,447.65625,0,9
+Laptop,HP Victus 15 1000GB SSD,74500,Like New,HP,HP Victus 15,1000,2.0,Butwal,,9.0,24,94303.8,0.21000000000000002,0.79,0.9,74.5,0,5
+Mobile,OnePlus Nord 3 128GB,20500,Fair,OnePlus,OnePlus Nord 3,128,1.5,Biratnagar,,5.0,18,32539.68,0.37,0.63,0.5,160.15625,1,10
+Mobile,Apple iPhone 14 Pro 1024GB,248000,New,Apple,iPhone 14 Pro,1024,0.0,Hetauda,,10.0,0,261052.63,0.05,0.95,1.0,242.1875,1,1
+Mobile,Samsung Galaxy S22 128GB,52100,Fair,Samsung,Galaxy S22,128,1.0,Bhaktapur,,5.0,12,77761.19,0.33,0.6699999999999999,0.5,407.03125,1,3
+Laptop,Dell XPS 15 1000GB SSD,200600,New,Dell,Dell XPS 15,1000,1.0,Chitwan,,10.0,12,218043.48,0.08,0.92,1.0,200.6,0,2
+Laptop,Apple MacBook Pro 16 M3 1000GB,259800,Good,Apple,MacBook Pro 16 M3,1000,1.5,Birgunj,,6.0,18,382058.82,0.32,0.6799999999999999,0.6,259.8,0,1
+Laptop,Lenovo Legion 5 512GB SSD,107600,Like New,Lenovo,Lenovo Legion 5,512,1.0,Bharatpur,,9.0,12,123678.16,0.13,0.87,0.9,210.15625,0,6
+Mobile,Apple iPhone 11 256GB,69200,Like New,Apple,iPhone 11,256,0.5,Lalitpur,,9.0,6,76043.96,0.09,0.91,0.9,270.3125,1,1
+Mobile,Realme 11 Pro 64GB,19500,Good,Realme,Realme 11 Pro,64,2.0,Bhaktapur,,6.0,24,30468.75,0.36,0.64,0.6,304.6875,1,14
+Laptop,Asus ROG Strix G15 2000GB SSD,183300,New,Asus,Asus ROG Strix G15,2000,1.5,Chabahil,,10.0,18,208295.45,0.12,0.88,1.0,91.65,0,4
+Laptop,HP 15s 1000GB SSD,28300,Fair,HP,HP 15s,1000,1.0,Pokhara,,5.0,12,42238.81,0.33,0.6699999999999999,0.5,28.3,0,5
+Laptop,HP ProBook 440 1000GB SSD,108700,New,HP,HP ProBook 440,1000,0.0,Lalitpur,,10.0,0,114421.05,0.05,0.95,1.0,108.7,0,5
+Laptop,Microsoft Surface Laptop 5 1000GB SSD,84600,Good,Microsoft,Surface Laptop 5,1000,2.0,Dharan,,6.0,24,132187.5,0.36,0.64,0.6,84.6,0,9
+Laptop,HP ProBook 440 256GB SSD,55700,Excellent,HP,HP ProBook 440,256,1.5,Chabahil,,8.0,18,71410.26,0.22,0.78,0.8,217.578125,0,5
+Laptop,Asus ROG Strix G15 1000GB SSD,95100,Good,Asus,Asus ROG Strix G15,1000,2.0,Butwal,,6.0,24,148593.75,0.36,0.64,0.6,95.1,0,4
+Mobile,Apple iPhone 11 128GB,61900,Excellent,Apple,iPhone 11,128,0.0,Boudha,,8.0,0,68777.78,0.1,0.9,0.8,483.59375,1,1
+Mobile,Apple iPhone 14 1024GB,160500,Like New,Apple,iPhone 14,1024,1.0,Kalanki,,9.0,12,184482.76,0.13,0.87,0.9,156.73828125,1,1
+Laptop,Dell Latitude 5420 256GB SSD,74200,Like New,Dell,Dell Latitude 5420,256,0.0,Butwal,,9.0,0,78105.26,0.05,0.95,0.9,289.84375,0,2
+Mobile,Nothing Phone 2 64GB,55300,New,Nothing,Nothing Phone 2,64,0.5,Pokhara,,10.0,6,58210.53,0.05,0.95,1.0,864.0625,1,0
+Laptop,Acer Extensa 15 256GB SSD,36100,Like New,Acer,Acer Extensa 15,256,1.0,Chabahil,,9.0,12,41494.25,0.13,0.87,0.9,141.015625,0,8
+Mobile,Oppo A78 64GB,16400,Excellent,Oppo,Oppo A78,64,2.5,Chitwan,,8.0,30,23428.57,0.30000000000000004,0.7,0.8,256.25,1,11
+Laptop,Asus ROG Strix G15 512GB SSD,130500,Excellent,Asus,Asus ROG Strix G15,512,0.5,Pokhara,,8.0,6,151744.19,0.14,0.86,0.8,254.8828125,0,4
+Laptop,Apple MacBook Air M2 1000GB,179200,New,Apple,MacBook Air M2,1000,1.0,Kathmandu,,10.0,12,194782.61,0.08,0.92,1.0,179.2,0,1
+Laptop,Acer Swift 3 512GB SSD,72600,New,Acer,Acer Swift 3,512,1.0,Boudha,,10.0,12,78913.04,0.08,0.92,1.0,141.796875,0,8
+Laptop,Acer Swift 3 512GB SSD,74300,New,Acer,Acer Swift 3,512,1.0,Chitwan,,10.0,12,80760.87,0.08,0.92,1.0,145.1171875,0,8
+Laptop,HP Victus 15 256GB SSD,93500,New,HP,HP Victus 15,256,0.5,Nepalgunj,,10.0,6,98421.05,0.05,0.95,1.0,365.234375,0,5
+Laptop,Apple MacBook Pro 14 M2 1000GB,265900,Like New,Apple,MacBook Pro 14 M2,1000,0.5,Biratnagar,,9.0,6,292197.8,0.09,0.91,0.9,265.9,0,1
+Laptop,Apple MacBook Air M2 512GB,143600,Like New,Apple,MacBook Air M2,512,1.0,New Road,,9.0,12,165057.47,0.13,0.87,0.9,280.46875,0,1
+Mobile,Samsung Galaxy S24 512GB,160400,Like New,Samsung,Galaxy S24,512,0.0,Hetauda,,9.0,0,168842.11,0.05,0.95,0.9,313.28125,1,3
+Mobile,Apple iPhone 12 128GB,68400,Excellent,Apple,iPhone 12,128,0.5,Baneshwor,,8.0,6,79534.88,0.14,0.86,0.8,534.375,1,1
+Laptop,Acer Nitro 5 2000GB SSD,116000,New,Acer,Acer Nitro 5,2000,0.5,Chabahil,,10.0,6,122105.26,0.05,0.95,1.0,58.0,0,8
+Mobile,Xiaomi 14 256GB,96600,New,Xiaomi,Xiaomi 14,256,1.0,Hetauda,,10.0,12,105000.0,0.08,0.92,1.0,377.34375,1,7
+Mobile,Apple iPhone 15 Pro 128GB,147700,Excellent,Apple,iPhone 15 Pro,128,1.5,Chitwan,,8.0,18,189358.97,0.22,0.78,0.8,1153.90625,1,1
+Laptop,Asus VivoBook 15 512GB SSD,50600,Like New,Asus,Asus VivoBook 15,512,1.0,Putalisadak,,9.0,12,58160.92,0.13,0.87,0.9,98.828125,0,4
+Mobile,Apple iPhone 14 512GB,169300,New,Apple,iPhone 14,512,0.0,Chabahil,,10.0,0,178210.53,0.05,0.95,1.0,330.6640625,1,1
+Mobile,OnePlus 11 512GB,75400,Excellent,OnePlus,OnePlus 11,512,2.0,Nepalgunj,,8.0,24,101891.89,0.26,0.74,0.8,147.265625,1,10
+Mobile,Motorola Moto G54 256GB,10100,Good,Motorola,Moto G54,256,2.0,Birgunj,,6.0,24,15781.25,0.36,0.64,0.6,39.453125,1,0
+Mobile,Apple iPhone 15 Pro 1024GB,172800,Good,Apple,iPhone 15 Pro,1024,1.5,Boudha,,6.0,18,254117.65,0.32,0.6799999999999999,0.6,168.75,1,1
+Mobile,Apple iPhone 14 128GB,57600,Fair,Apple,iPhone 14,128,1.5,Hetauda,,5.0,18,91428.57,0.37,0.63,0.5,450.0,1,1
+Mobile,Motorola Moto G54 256GB,18700,New,Motorola,Moto G54,256,1.0,Putalisadak,,10.0,12,20326.09,0.08,0.92,1.0,73.046875,1,0
+Mobile,Vivo Y22 128GB,10800,Excellent,Vivo,Vivo Y22,128,3.0,Putalisadak,,8.0,36,16363.64,0.33999999999999997,0.66,0.8,84.375,1,15
+Laptop,Asus ZenBook 14 1000GB SSD,94600,Like New,Asus,Asus ZenBook 14,1000,1.0,Chitwan,,9.0,12,108735.63,0.13,0.87,0.9,94.6,0,4
+Mobile,Motorola Moto G32 128GB,11700,Like New,Motorola,Moto G32,128,2.0,Birgunj,,9.0,24,14810.13,0.21000000000000002,0.79,0.9,91.40625,1,0
+Mobile,Samsung Galaxy M34 128GB,13600,Good,Samsung,Galaxy M34,128,2.5,Lalitpur,,6.0,30,22666.67,0.4,0.6,0.6,106.25,1,3
+Laptop,Dell Vostro 15 256GB SSD,57800,New,Dell,Dell Vostro 15,256,0.0,Chitwan,,10.0,0,60842.11,0.05,0.95,1.0,225.78125,0,2
+Mobile,Samsung Galaxy S23 128GB,95400,Like New,Samsung,Galaxy S23,128,1.0,Kathmandu,,9.0,12,109655.17,0.13,0.87,0.9,745.3125,1,3
+Laptop,Asus ROG Strix G15 2000GB SSD,195900,Like New,Asus,Asus ROG Strix G15,2000,0.0,Kalanki,,9.0,0,206210.53,0.05,0.95,0.9,97.95,0,4
+Laptop,MSI Modern 14 512GB SSD,61400,Excellent,MSI,MSI Modern 14,512,0.5,Koteshwor,,8.0,6,71395.35,0.14,0.86,0.8,119.921875,0,13
+Laptop,Apple MacBook Pro 16 M3 1000GB,291300,Excellent,Apple,MacBook Pro 16 M3,1000,1.5,Boudha,,8.0,18,373461.54,0.22,0.78,0.8,291.3,0,1
+Mobile,Xiaomi 14 256GB,102900,New,Xiaomi,Xiaomi 14,256,0.0,Nepalgunj,,10.0,0,108315.79,0.05,0.95,1.0,401.953125,1,7
+Laptop,Microsoft Surface Laptop 5 512GB SSD,64900,Fair,Microsoft,Surface Laptop 5,512,1.0,Chitwan,,5.0,12,96865.67,0.33,0.6699999999999999,0.5,126.7578125,0,9
+Laptop,Microsoft Surface Laptop Go 3 512GB SSD,71600,Excellent,Microsoft,Surface Laptop Go 3,512,0.5,Hetauda,,8.0,6,83255.81,0.14,0.86,0.8,139.84375,0,9
+Mobile,Realme 11 Pro 256GB,25500,Excellent,Realme,Realme 11 Pro,256,2.5,Chabahil,,8.0,30,36428.57,0.30000000000000004,0.7,0.8,99.609375,1,14
+Laptop,HP Envy 13 512GB SSD,100400,Like New,HP,HP Envy 13,512,0.5,New Road,,9.0,6,110329.67,0.09,0.91,0.9,196.09375,0,5
+Laptop,Lenovo IdeaPad Slim 3 256GB SSD,28000,Good,Lenovo,Lenovo IdeaPad Slim 3,256,2.0,Lalitpur,,6.0,24,43750.0,0.36,0.64,0.6,109.375,0,6
+Mobile,Nokia G42 64GB,8000,Fair,Nokia,Nokia G42,64,1.5,Baneshwor,,5.0,18,12698.41,0.37,0.63,0.5,125.0,1,0
+Mobile,Google Pixel 8 128GB,80100,Like New,Google,Pixel 8,128,0.0,Bhaktapur,,9.0,0,84315.79,0.05,0.95,0.9,625.78125,1,0
+Mobile,Apple iPhone 14 Pro 256GB,207600,New,Apple,iPhone 14 Pro,256,0.0,Dharan,,10.0,0,218526.32,0.05,0.95,1.0,810.9375,1,1
+Mobile,Apple iPhone 14 Pro 128GB,175100,New,Apple,iPhone 14 Pro,128,0.0,Kathmandu,,10.0,0,184315.79,0.05,0.95,1.0,1367.96875,1,1
+Mobile,Redmi Note 12 64GB,12300,Good,Redmi,Redmi Note 12,64,2.0,Dharan,,6.0,24,19218.75,0.36,0.64,0.6,192.1875,1,12
+Laptop,Acer Extensa 15 256GB SSD,39900,Like New,Acer,Acer Extensa 15,256,0.5,Bharatpur,,9.0,6,43846.15,0.09,0.91,0.9,155.859375,0,8
+Laptop,Lenovo ThinkPad E14 512GB SSD,78600,Like New,Lenovo,Lenovo ThinkPad E14,512,0.5,Biratnagar,,9.0,6,86373.63,0.09,0.91,0.9,153.515625,0,6
+Mobile,Xiaomi Redmi 13C 64GB,9500,Excellent,Xiaomi,Redmi 13C,64,1.0,Kathmandu,,8.0,12,11585.37,0.18,0.8200000000000001,0.8,148.4375,1,7
+Laptop,Dell Vostro 15 512GB SSD,25000,Fair,Dell,Dell Vostro 15,512,3.0,Biratnagar,,5.0,36,49019.61,0.49,0.51,0.5,48.828125,0,2
+Laptop,HP 15s 256GB SSD,33800,Excellent,HP,HP 15s,256,2.0,Chitwan,,8.0,24,45675.68,0.26,0.74,0.8,132.03125,0,5
+Laptop,Apple MacBook Air M3 512GB,182100,Like New,Apple,MacBook Air M3,512,0.0,Chitwan,,9.0,0,191684.21,0.05,0.95,0.9,355.6640625,0,1
+Mobile,OnePlus 12 128GB,118300,New,OnePlus,OnePlus 12,128,1.0,New Road,,10.0,12,128586.96,0.08,0.92,1.0,924.21875,1,10
+Laptop,Dell XPS 15 256GB SSD,104300,Good,Dell,Dell XPS 15,256,1.5,New Road,,6.0,18,153382.35,0.32,0.6799999999999999,0.6,407.421875,0,2
+Mobile,Realme C55 256GB,16500,New,Realme,Realme C55,256,0.0,Pokhara,,10.0,0,17368.42,0.05,0.95,1.0,64.453125,1,14
+Laptop,Lenovo IdeaPad Slim 3 512GB SSD,39300,Excellent,Lenovo,Lenovo IdeaPad Slim 3,512,1.5,Kathmandu,,8.0,18,50384.62,0.22,0.78,0.8,76.7578125,0,6
+Laptop,Apple MacBook Air M2 512GB,158300,New,Apple,MacBook Air M2,512,0.5,Lalitpur,,10.0,6,166631.58,0.05,0.95,1.0,309.1796875,0,1
+Mobile,Honor 90 64GB,34200,Like New,Honor,Honor 90,64,1.0,Lalitpur,,9.0,12,39310.34,0.13,0.87,0.9,534.375,1,0
+Laptop,Asus ROG Strix G15 2000GB SSD,165400,Like New,Asus,Asus ROG Strix G15,2000,1.0,Nepalgunj,,9.0,12,190114.94,0.13,0.87,0.9,82.7,0,4
+Laptop,HP Pavilion 15 256GB SSD,65700,New,HP,HP Pavilion 15,256,1.0,Nepalgunj,,10.0,12,71413.04,0.08,0.92,1.0,256.640625,0,5
+Laptop,HP ProBook 440 512GB SSD,75000,Like New,HP,HP ProBook 440,512,1.0,Chabahil,,9.0,12,86206.9,0.13,0.87,0.9,146.484375,0,5
+Laptop,Asus TUF Gaming F15 2000GB SSD,100800,Excellent,Asus,Asus TUF Gaming F15,2000,1.5,Bharatpur,,8.0,18,129230.77,0.22,0.78,0.8,50.4,0,4
+Mobile,Apple iPhone 13 Pro 512GB,129400,Excellent,Apple,iPhone 13 Pro,512,1.5,Putalisadak,,8.0,18,165897.44,0.22,0.78,0.8,252.734375,1,1
+Mobile,Redmi 13C 128GB,8100,Good,Redmi,Redmi 13C,128,1.5,Nepalgunj,,6.0,18,11911.76,0.32,0.6799999999999999,0.6,63.28125,1,12
+Mobile,Apple iPhone 13 Pro 1024GB,149700,Excellent,Apple,iPhone 13 Pro,1024,1.5,Bharatpur,,8.0,18,191923.08,0.22,0.78,0.8,146.19140625,1,1
+Laptop,Dell XPS 15 1000GB SSD,230600,New,Dell,Dell XPS 15,1000,0.0,Boudha,,10.0,0,242736.84,0.05,0.95,1.0,230.6,0,2
+Mobile,Oppo Reno 10 256GB,59900,New,Oppo,Oppo Reno 10,256,0.0,Dharan,,10.0,0,63052.63,0.05,0.95,1.0,233.984375,1,11
+Laptop,Microsoft Surface Laptop 5 512GB SSD,107000,Excellent,Microsoft,Surface Laptop 5,512,0.0,New Road,,8.0,0,118888.89,0.1,0.9,0.8,208.984375,0,9
+Mobile,OnePlus 12 256GB,86300,Good,OnePlus,OnePlus 12,256,0.5,Nepalgunj,,6.0,6,113552.63,0.24000000000000002,0.76,0.6,337.109375,1,10
+Laptop,Dell XPS 15 1000GB SSD,176600,Like New,Dell,Dell XPS 15,1000,1.0,Baneshwor,,9.0,12,202988.51,0.13,0.87,0.9,176.6,0,2
+Laptop,Dell Latitude 5420 1000GB SSD,89300,Like New,Dell,Dell Latitude 5420,1000,0.5,Nepalgunj,,9.0,6,98131.87,0.09,0.91,0.9,89.3,0,2
+Laptop,Dell Inspiron 15 256GB SSD,44100,Excellent,Dell,Dell Inspiron 15,256,1.5,Lalitpur,,8.0,18,56538.46,0.22,0.78,0.8,172.265625,0,2
+Mobile,OnePlus 10 Pro 256GB,60900,Excellent,OnePlus,OnePlus 10 Pro,256,1.5,Biratnagar,,8.0,18,78076.92,0.22,0.78,0.8,237.890625,1,10
+Laptop,Microsoft Surface Laptop 5 1000GB SSD,114900,Excellent,Microsoft,Surface Laptop 5,1000,0.5,Butwal,,8.0,6,133604.65,0.14,0.86,0.8,114.9,0,9
+Laptop,Acer Nitro 5 512GB SSD,67300,Excellent,Acer,Acer Nitro 5,512,1.0,Kathmandu,,8.0,12,82073.17,0.18,0.8200000000000001,0.8,131.4453125,0,8
+Laptop,HP Victus 15 1000GB SSD,40600,Fair,HP,HP Victus 15,1000,3.0,Hetauda,,5.0,36,79607.84,0.49,0.51,0.5,40.6,0,5
+Laptop,Dell Inspiron 15 512GB SSD,46700,Excellent,Dell,Dell Inspiron 15,512,2.0,Nepalgunj,,8.0,24,63108.11,0.26,0.74,0.8,91.2109375,0,2
+Mobile,Oppo A58 256GB,15400,Excellent,Oppo,Oppo A58,256,1.5,Baneshwor,,8.0,18,19743.59,0.22,0.78,0.8,60.15625,1,11
+Mobile,Realme 11 Pro 128GB,29300,Excellent,Realme,Realme 11 Pro,128,1.0,Hetauda,,8.0,12,35731.71,0.18,0.8200000000000001,0.8,228.90625,1,14
+Laptop,Apple MacBook Air M2 1000GB,119500,Good,Apple,MacBook Air M2,1000,0.5,Bhaktapur,,6.0,6,157236.84,0.24000000000000002,0.76,0.6,119.5,0,1
+Laptop,Dell Latitude 5420 1000GB SSD,72000,Like New,Dell,Dell Latitude 5420,1000,1.5,Nepalgunj,,9.0,18,86746.99,0.16999999999999998,0.8300000000000001,0.9,72.0,0,2
+Laptop,Apple MacBook Pro 14 M2 256GB,99500,Fair,Apple,MacBook Pro 14 M2,256,2.5,Chitwan,,5.0,30,180909.09,0.45,0.55,0.5,388.671875,0,1
+Laptop,Asus VivoBook 15 1000GB SSD,58200,Like New,Asus,Asus VivoBook 15,1000,1.0,Baneshwor,,9.0,12,66896.55,0.13,0.87,0.9,58.2,0,4
+Mobile,Samsung Galaxy S21 128GB,33600,Fair,Samsung,Galaxy S21,128,2.5,Pokhara,,5.0,30,61090.91,0.45,0.55,0.5,262.5,1,3
+Mobile,Apple iPhone 12 64GB,64100,Excellent,Apple,iPhone 12,64,0.5,Chitwan,,8.0,6,74534.88,0.14,0.86,0.8,1001.5625,1,1
+Mobile,Honor X9a 256GB,13100,Fair,Honor,Honor X9a,256,3.0,Bhaktapur,,5.0,36,25686.27,0.49,0.51,0.5,51.171875,1,0
+Laptop,Lenovo Yoga 7 512GB SSD,108900,New,Lenovo,Lenovo Yoga 7,512,0.0,Bharatpur,,10.0,0,114631.58,0.05,0.95,1.0,212.6953125,0,6
+Mobile,Xiaomi Redmi 13C 128GB,11700,Like New,Xiaomi,Redmi 13C,128,1.0,New Road,,9.0,12,13448.28,0.13,0.87,0.9,91.40625,1,7
+Laptop,HP 15s 256GB SSD,31000,Excellent,HP,HP 15s,256,2.0,Putalisadak,,8.0,24,41891.89,0.26,0.74,0.8,121.09375,0,5
+Mobile,Xiaomi Redmi 13C 128GB,11000,Like New,Xiaomi,Redmi 13C,128,0.5,Dharan,,9.0,6,12087.91,0.09,0.91,0.9,85.9375,1,7
+Mobile,Samsung Galaxy M34 512GB,28600,Like New,Samsung,Galaxy M34,512,1.0,Pokhara,,9.0,12,32873.56,0.13,0.87,0.9,55.859375,1,3
+Laptop,Apple MacBook Air M1 256GB,113500,Like New,Apple,MacBook Air M1,256,0.5,Biratnagar,,9.0,6,124725.27,0.09,0.91,0.9,443.359375,0,1
+Laptop,MSI Modern 14 512GB SSD,62100,Like New,MSI,MSI Modern 14,512,1.5,Hetauda,,9.0,18,74819.28,0.16999999999999998,0.8300000000000001,0.9,121.2890625,0,13
+Mobile,Apple iPhone 15 128GB,111000,Like New,Apple,iPhone 15,128,2.0,Pokhara,,9.0,24,140506.33,0.21000000000000002,0.79,0.9,867.1875,1,1
+Laptop,Asus VivoBook 15 256GB SSD,62500,New,Asus,Asus VivoBook 15,256,0.0,Koteshwor,,10.0,0,65789.47,0.05,0.95,1.0,244.140625,0,4
+Mobile,Apple iPhone 13 64GB,74700,Excellent,Apple,iPhone 13,64,0.5,Koteshwor,,8.0,6,86860.47,0.14,0.86,0.8,1167.1875,1,1
+Mobile,Redmi Note 12 64GB,16400,Like New,Redmi,Redmi Note 12,64,1.0,Chabahil,,9.0,12,18850.57,0.13,0.87,0.9,256.25,1,12
+Laptop,Apple MacBook Pro 16 M3 512GB,288900,Excellent,Apple,MacBook Pro 16 M3,512,1.0,Kathmandu,,8.0,12,352317.07,0.18,0.8200000000000001,0.8,564.2578125,0,1
+Laptop,Asus VivoBook 15 256GB SSD,60400,New,Asus,Asus VivoBook 15,256,0.0,Pokhara,,10.0,0,63578.95,0.05,0.95,1.0,235.9375,0,4
+Laptop,Asus VivoBook 15 256GB SSD,53900,Like New,Asus,Asus VivoBook 15,256,0.5,Chitwan,,9.0,6,59230.77,0.09,0.91,0.9,210.546875,0,4
+Laptop,MSI GF63 Thin 512GB SSD,61600,Excellent,MSI,MSI GF63 Thin,512,2.0,Baneshwor,,8.0,24,83243.24,0.26,0.74,0.8,120.3125,0,13
+Laptop,MSI Modern 14 256GB SSD,33900,Fair,MSI,MSI Modern 14,256,0.5,Nepalgunj,,5.0,6,47746.48,0.29,0.71,0.5,132.421875,0,13
+Mobile,Redmi Note 12 64GB,8000,Fair,Redmi,Redmi Note 12,64,3.0,Lalitpur,,5.0,36,15686.27,0.49,0.51,0.5,125.0,1,12
+Laptop,Asus VivoBook 15 1000GB SSD,43400,Excellent,Asus,Asus VivoBook 15,1000,2.5,Butwal,,8.0,30,62000.0,0.30000000000000004,0.7,0.8,43.4,0,4
+Mobile,Redmi Note 13 Pro 128GB,11600,Fair,Redmi,Redmi Note 13 Pro,128,4.0,New Road,,5.0,48,26976.74,0.5700000000000001,0.42999999999999994,0.5,90.625,1,12
+Mobile,Apple iPhone 14 Pro 512GB,234500,New,Apple,iPhone 14 Pro,512,0.0,Nepalgunj,,10.0,0,246842.11,0.05,0.95,1.0,458.0078125,1,1
+Laptop,Dell Latitude 5420 256GB SSD,68400,Like New,Dell,Dell Latitude 5420,256,0.5,Pokhara,,9.0,6,75164.84,0.09,0.91,0.9,267.1875,0,2
+Mobile,OnePlus 10 Pro 256GB,66300,Excellent,OnePlus,OnePlus 10 Pro,256,1.5,Kathmandu,,8.0,18,85000.0,0.22,0.78,0.8,258.984375,1,10
+Mobile,Nothing Phone 2 256GB,61500,Like New,Nothing,Nothing Phone 2,256,0.0,New Road,,9.0,0,64736.84,0.05,0.95,0.9,240.234375,1,0
+Mobile,Oppo A58 256GB,15700,Like New,Oppo,Oppo A58,256,1.5,New Road,,9.0,18,18915.66,0.16999999999999998,0.8300000000000001,0.9,61.328125,1,11
+Mobile,Samsung Galaxy S21 512GB,94300,New,Samsung,Galaxy S21,512,0.5,Baneshwor,,10.0,6,99263.16,0.05,0.95,1.0,184.1796875,1,3
+Mobile,Realme GT Neo 3 128GB,45300,Like New,Realme,Realme GT Neo 3,128,0.5,Bharatpur,,9.0,6,49780.22,0.09,0.91,0.9,353.90625,1,14
+Mobile,Apple iPhone 12 256GB,79100,Excellent,Apple,iPhone 12,256,1.0,Butwal,,8.0,12,96463.41,0.18,0.8200000000000001,0.8,308.984375,1,1
+Laptop,Dell Inspiron 15 1000GB SSD,76500,New,Dell,Dell Inspiron 15,1000,0.0,Butwal,,10.0,0,80526.32,0.05,0.95,1.0,76.5,0,2
+Mobile,Xiaomi Redmi Note 13 Pro 64GB,19800,Good,Xiaomi,Redmi Note 13 Pro,64,0.5,Koteshwor,,6.0,6,26052.63,0.24000000000000002,0.76,0.6,309.375,1,7
+Laptop,Dell Inspiron 15 256GB SSD,36200,Good,Dell,Dell Inspiron 15,256,1.0,Bhaktapur,,6.0,12,50277.78,0.28,0.72,0.6,141.40625,0,2
+Laptop,Asus TUF Gaming F15 512GB SSD,85700,Excellent,Asus,Asus TUF Gaming F15,512,1.5,Koteshwor,,8.0,18,109871.79,0.22,0.78,0.8,167.3828125,0,4
+Laptop,Asus ROG Strix G15 1000GB SSD,156500,Like New,Asus,Asus ROG Strix G15,1000,0.0,Bharatpur,,9.0,0,164736.84,0.05,0.95,0.9,156.5,0,4
+Mobile,Apple iPhone 15 512GB,163700,Like New,Apple,iPhone 15,512,0.5,Baneshwor,,9.0,6,179890.11,0.09,0.91,0.9,319.7265625,1,1
+Mobile,Samsung Galaxy S22 256GB,122500,New,Samsung,Galaxy S22,256,0.0,Birgunj,,10.0,0,128947.37,0.05,0.95,1.0,478.515625,1,3
+Mobile,Apple iPhone 15 128GB,136500,Like New,Apple,iPhone 15,128,0.0,Nepalgunj,,9.0,0,143684.21,0.05,0.95,0.9,1066.40625,1,1
+Laptop,Asus VivoBook 15 512GB SSD,70300,New,Asus,Asus VivoBook 15,512,0.0,Butwal,,10.0,0,74000.0,0.05,0.95,1.0,137.3046875,0,4
+Mobile,Samsung Galaxy S21 256GB,82400,Like New,Samsung,Galaxy S21,256,0.5,Putalisadak,,9.0,6,90549.45,0.09,0.91,0.9,321.875,1,3
+Mobile,Samsung Galaxy S21 512GB,80500,Like New,Samsung,Galaxy S21,512,0.5,Bhaktapur,,9.0,6,88461.54,0.09,0.91,0.9,157.2265625,1,3
+Mobile,Xiaomi Redmi Note 13 Pro 64GB,32100,New,Xiaomi,Redmi Note 13 Pro,64,0.0,Kathmandu,,10.0,0,33789.47,0.05,0.95,1.0,501.5625,1,7
+Laptop,Microsoft Surface Laptop 5 256GB SSD,138500,New,Microsoft,Surface Laptop 5,256,0.0,Butwal,,10.0,0,145789.47,0.05,0.95,1.0,541.015625,0,9
+Mobile,Apple iPhone 13 64GB,72200,Excellent,Apple,iPhone 13,64,1.5,Putalisadak,,8.0,18,92564.1,0.22,0.78,0.8,1128.125,1,1
+Mobile,Apple iPhone 13 128GB,77400,Excellent,Apple,iPhone 13,128,0.5,Dharan,,8.0,6,90000.0,0.14,0.86,0.8,604.6875,1,1
+Laptop,Acer Extensa 15 1000GB SSD,42100,Like New,Acer,Acer Extensa 15,1000,1.0,Nepalgunj,,9.0,12,48390.8,0.13,0.87,0.9,42.1,0,8
+Mobile,Redmi 12 128GB,15700,New,Redmi,Redmi 12,128,0.0,Kathmandu,,10.0,0,16526.32,0.05,0.95,1.0,122.65625,1,12
+Laptop,Dell Inspiron 15 256GB SSD,48400,Excellent,Dell,Dell Inspiron 15,256,1.0,Lalitpur,,8.0,12,59024.39,0.18,0.8200000000000001,0.8,189.0625,0,2
+Laptop,HP ProBook 440 1000GB SSD,82000,Like New,HP,HP ProBook 440,1000,1.0,Kathmandu,,9.0,12,94252.87,0.13,0.87,0.9,82.0,0,5
+Laptop,Lenovo ThinkPad E14 256GB SSD,69200,Excellent,Lenovo,Lenovo ThinkPad E14,256,0.5,Bhaktapur,,8.0,6,80465.12,0.14,0.86,0.8,270.3125,0,6
+Laptop,Apple MacBook Pro 16 M3 256GB,295800,Like New,Apple,MacBook Pro 16 M3,256,0.5,Nepalgunj,,9.0,6,325054.95,0.09,0.91,0.9,1155.46875,0,1
+Laptop,HP Victus 15 512GB SSD,68400,Excellent,HP,HP Victus 15,512,2.0,Birgunj,,8.0,24,92432.43,0.26,0.74,0.8,133.59375,0,5
+Mobile,Vivo Y36 64GB,18100,Like New,Vivo,Vivo Y36,64,1.0,Bharatpur,,9.0,12,20804.6,0.13,0.87,0.9,282.8125,1,15
+Mobile,Samsung Galaxy S22 256GB,59200,Good,Samsung,Galaxy S22,256,2.0,Biratnagar,,6.0,24,92500.0,0.36,0.64,0.6,231.25,1,3
+Laptop,Acer Nitro 5 512GB SSD,53200,Good,Acer,Acer Nitro 5,512,2.5,Biratnagar,,6.0,30,88666.67,0.4,0.6,0.6,103.90625,0,8
+Laptop,Lenovo Yoga 7 256GB SSD,88000,Like New,Lenovo,Lenovo Yoga 7,256,1.0,Biratnagar,,9.0,12,101149.43,0.13,0.87,0.9,343.75,0,6
+Mobile,Samsung Galaxy S22 512GB,113000,Like New,Samsung,Galaxy S22,512,0.5,Biratnagar,,9.0,6,124175.82,0.09,0.91,0.9,220.703125,1,3
+Laptop,MSI Katana 15 512GB SSD,50900,Fair,MSI,MSI Katana 15,512,2.0,Birgunj,,5.0,24,86271.19,0.41000000000000003,0.59,0.5,99.4140625,0,13
+Mobile,OnePlus Nord 3 128GB,44200,New,OnePlus,OnePlus Nord 3,128,0.5,New Road,,10.0,6,46526.32,0.05,0.95,1.0,345.3125,1,10
+Mobile,Apple iPhone 15 Pro 1024GB,239700,Excellent,Apple,iPhone 15 Pro,1024,0.5,Chitwan,,8.0,6,278720.93,0.14,0.86,0.8,234.08203125,1,1
+Mobile,Vivo X90 256GB,68100,New,Vivo,Vivo X90,256,1.0,Chitwan,,10.0,12,74021.74,0.08,0.92,1.0,266.015625,1,15
+Mobile,Apple iPhone 14 1024GB,76600,Fair,Apple,iPhone 14,1024,2.5,Baneshwor,,5.0,30,139272.73,0.45,0.55,0.5,74.8046875,1,1
+Mobile,OnePlus 11 128GB,84900,Like New,OnePlus,OnePlus 11,128,0.5,Dharan,,9.0,6,93296.7,0.09,0.91,0.9,663.28125,1,10
+Mobile,Apple iPhone 14 Pro 256GB,110300,Good,Apple,iPhone 14 Pro,256,2.0,Hetauda,,6.0,24,172343.75,0.36,0.64,0.6,430.859375,1,1
+Laptop,MSI Modern 14 256GB SSD,63000,Like New,MSI,MSI Modern 14,256,0.0,Pokhara,,9.0,0,66315.79,0.05,0.95,0.9,246.09375,0,13
+Laptop,Dell XPS 13 1000GB SSD,154100,Like New,Dell,Dell XPS 13,1000,0.0,Bhaktapur,,9.0,0,162210.53,0.05,0.95,0.9,154.1,0,2
+Mobile,OnePlus 11 512GB,98300,Like New,OnePlus,OnePlus 11,512,0.5,Chabahil,,9.0,6,108021.98,0.09,0.91,0.9,191.9921875,1,10
+Laptop,Lenovo Yoga 7 512GB SSD,112600,New,Lenovo,Lenovo Yoga 7,512,0.0,Lalitpur,,10.0,0,118526.32,0.05,0.95,1.0,219.921875,0,6
+Laptop,MSI Modern 14 256GB SSD,70600,New,MSI,MSI Modern 14,256,0.5,Birgunj,,10.0,6,74315.79,0.05,0.95,1.0,275.78125,0,13
+Laptop,Apple MacBook Air M2 1000GB,131400,Excellent,Apple,MacBook Air M2,1000,1.5,Chabahil,,8.0,18,168461.54,0.22,0.78,0.8,131.4,0,1
+Laptop,Apple MacBook Air M3 256GB,99600,Good,Apple,MacBook Air M3,256,1.5,Nepalgunj,,6.0,18,146470.59,0.32,0.6799999999999999,0.6,389.0625,0,1
+Mobile,Honor X9a 128GB,22600,Excellent,Honor,Honor X9a,128,2.0,Chabahil,,8.0,24,30540.54,0.26,0.74,0.8,176.5625,1,0
+Mobile,Nothing Phone 1 256GB,33500,Excellent,Nothing,Nothing Phone 1,256,1.5,Dharan,,8.0,18,42948.72,0.22,0.78,0.8,130.859375,1,0
+Laptop,Apple MacBook Pro 14 M2 256GB,236300,Like New,Apple,MacBook Pro 14 M2,256,0.5,Baneshwor,,9.0,6,259670.33,0.09,0.91,0.9,923.046875,0,1
+Laptop,Lenovo Legion 5 2000GB SSD,94200,Good,Lenovo,Lenovo Legion 5,2000,1.5,Lalitpur,,6.0,18,138529.41,0.32,0.6799999999999999,0.6,47.1,0,6
+Laptop,MSI GF63 Thin 1000GB SSD,69500,Excellent,MSI,MSI GF63 Thin,1000,1.0,Bharatpur,,8.0,12,84756.1,0.18,0.8200000000000001,0.8,69.5,0,13
+Mobile,Xiaomi 13 256GB,34000,Fair,Xiaomi,Xiaomi 13,256,2.0,Bharatpur,,5.0,24,57627.12,0.41000000000000003,0.59,0.5,132.8125,1,7
+Mobile,Samsung Galaxy S21 512GB,65200,Excellent,Samsung,Galaxy S21,512,2.5,Butwal,,8.0,30,93142.86,0.30000000000000004,0.7,0.8,127.34375,1,3
+Mobile,Samsung Galaxy S24 128GB,93500,Excellent,Samsung,Galaxy S24,128,1.5,Kalanki,,8.0,18,119871.79,0.22,0.78,0.8,730.46875,1,3
+Mobile,Samsung Galaxy M34 256GB,26800,Like New,Samsung,Galaxy M34,256,0.5,Nepalgunj,,9.0,6,29450.55,0.09,0.91,0.9,104.6875,1,3
+Mobile,Xiaomi Redmi Note 13 Pro 64GB,32200,New,Xiaomi,Redmi Note 13 Pro,64,0.0,Putalisadak,,10.0,0,33894.74,0.05,0.95,1.0,503.125,1,7
+Laptop,Asus ROG Strix G15 512GB SSD,169800,New,Asus,Asus ROG Strix G15,512,0.5,Kalanki,,10.0,6,178736.84,0.05,0.95,1.0,331.640625,0,4
+Laptop,Apple MacBook Air M3 256GB,176400,New,Apple,MacBook Air M3,256,0.0,Boudha,,10.0,0,185684.21,0.05,0.95,1.0,689.0625,0,1
+Laptop,Apple MacBook Pro 16 M3 256GB,247100,Good,Apple,MacBook Pro 16 M3,256,0.5,Kalanki,,6.0,6,325131.58,0.24000000000000002,0.76,0.6,965.234375,0,1
+Mobile,Samsung Galaxy A14 128GB,8000,Fair,Samsung,Galaxy A14,128,1.5,Baneshwor,,5.0,18,12698.41,0.37,0.63,0.5,62.5,1,3
+Mobile,Samsung Galaxy S22 256GB,45500,Fair,Samsung,Galaxy S22,256,2.0,New Road,,5.0,24,77118.64,0.41000000000000003,0.59,0.5,177.734375,1,3
+Mobile,Redmi Note 12 256GB,15800,Excellent,Redmi,Redmi Note 12,256,2.0,Biratnagar,,8.0,24,21351.35,0.26,0.74,0.8,61.71875,1,12
+Mobile,Motorola Moto G84 64GB,14600,Excellent,Motorola,Moto G84,64,2.0,Dharan,,8.0,24,19729.73,0.26,0.74,0.8,228.125,1,0
+Laptop,Microsoft Surface Pro 9 256GB SSD,122700,Like New,Microsoft,Surface Pro 9,256,1.0,Birgunj,,9.0,12,141034.48,0.13,0.87,0.9,479.296875,0,9
+Laptop,Lenovo Yoga 7 1000GB SSD,99400,Excellent,Lenovo,Lenovo Yoga 7,1000,0.0,Chabahil,,8.0,0,110444.44,0.1,0.9,0.8,99.4,0,6
+Mobile,OnePlus Nord 3 128GB,26700,Good,OnePlus,OnePlus Nord 3,128,1.5,Koteshwor,,6.0,18,39264.71,0.32,0.6799999999999999,0.6,208.59375,1,10
+Laptop,Microsoft Surface Laptop Go 3 256GB SSD,59300,Excellent,Microsoft,Surface Laptop Go 3,256,1.0,Dharan,,8.0,12,72317.07,0.18,0.8200000000000001,0.8,231.640625,0,9
+Mobile,OnePlus 12 128GB,100800,Like New,OnePlus,OnePlus 12,128,0.5,Lalitpur,,9.0,6,110769.23,0.09,0.91,0.9,787.5,1,10
+Mobile,Xiaomi 14 256GB,103300,New,Xiaomi,Xiaomi 14,256,0.0,Kathmandu,,10.0,0,108736.84,0.05,0.95,1.0,403.515625,1,7
+Mobile,Samsung Galaxy S23 128GB,84100,Excellent,Samsung,Galaxy S23,128,1.0,Kathmandu,,8.0,12,102560.98,0.18,0.8200000000000001,0.8,657.03125,1,3
+Mobile,Apple iPhone 15 Pro 512GB,221500,Like New,Apple,iPhone 15 Pro,512,0.0,Boudha,,9.0,0,233157.89,0.05,0.95,0.9,432.6171875,1,1
+Laptop,Microsoft Surface Laptop Go 3 1000GB SSD,83200,Like New,Microsoft,Surface Laptop Go 3,1000,1.0,Bharatpur,,9.0,12,95632.18,0.13,0.87,0.9,83.2,0,9
+Mobile,Xiaomi 13 256GB,65300,Like New,Xiaomi,Xiaomi 13,256,1.0,Putalisadak,,9.0,12,75057.47,0.13,0.87,0.9,255.078125,1,7
+Mobile,Apple iPhone 15 Pro 512GB,209500,Excellent,Apple,iPhone 15 Pro,512,0.5,Putalisadak,,8.0,6,243604.65,0.14,0.86,0.8,409.1796875,1,1
+Mobile,Apple iPhone 13 Pro 256GB,149000,New,Apple,iPhone 13 Pro,256,0.5,Nepalgunj,,10.0,6,156842.11,0.05,0.95,1.0,582.03125,1,1
+Laptop,Apple MacBook Air M2 256GB,74000,Fair,Apple,MacBook Air M2,256,1.0,Pokhara,,5.0,12,110447.76,0.33,0.6699999999999999,0.5,289.0625,0,1
+Mobile,Google Pixel 7a 128GB,27000,Excellent,Google,Pixel 7a,128,3.0,Bhaktapur,,8.0,36,40909.09,0.33999999999999997,0.66,0.8,210.9375,1,0
+Mobile,Xiaomi Redmi Note 13 Pro 64GB,14200,Fair,Xiaomi,Redmi Note 13 Pro,64,1.0,Butwal,,5.0,12,21194.03,0.33,0.6699999999999999,0.5,221.875,1,7
+Mobile,Apple iPhone 12 128GB,97100,New,Apple,iPhone 12,128,0.0,Kathmandu,,10.0,0,102210.53,0.05,0.95,1.0,758.59375,1,1
+Laptop,Dell XPS 15 512GB SSD,116000,Good,Dell,Dell XPS 15,512,1.0,Boudha,,6.0,12,161111.11,0.28,0.72,0.6,226.5625,0,2
+Mobile,Xiaomi Redmi Note 13 256GB,15200,Good,Xiaomi,Redmi Note 13,256,2.5,Bharatpur,,6.0,30,25333.33,0.4,0.6,0.6,59.375,1,7
+Laptop,Asus TUF Gaming F15 1000GB SSD,69700,Good,Asus,Asus TUF Gaming F15,1000,1.5,Kalanki,,6.0,18,102500.0,0.32,0.6799999999999999,0.6,69.7,0,4
+Laptop,Microsoft Surface Laptop 5 512GB SSD,126500,New,Microsoft,Surface Laptop 5,512,1.0,Pokhara,,10.0,12,137500.0,0.08,0.92,1.0,247.0703125,0,9
+Mobile,Apple iPhone 11 128GB,77000,New,Apple,iPhone 11,128,0.0,Butwal,,10.0,0,81052.63,0.05,0.95,1.0,601.5625,1,1
+Laptop,Acer Nitro 5 512GB SSD,64300,Excellent,Acer,Acer Nitro 5,512,2.0,Chabahil,,8.0,24,86891.89,0.26,0.74,0.8,125.5859375,0,8
+Laptop,Microsoft Surface Laptop Go 3 256GB SSD,68600,Like New,Microsoft,Surface Laptop Go 3,256,0.5,Hetauda,,9.0,6,75384.62,0.09,0.91,0.9,267.96875,0,9
+Laptop,Asus ZenBook 14 256GB SSD,95700,New,Asus,Asus ZenBook 14,256,1.0,Pokhara,,10.0,12,104021.74,0.08,0.92,1.0,373.828125,0,4
+Mobile,Apple iPhone 14 Pro 128GB,142300,Like New,Apple,iPhone 14 Pro,128,0.5,Lalitpur,,9.0,6,156373.63,0.09,0.91,0.9,1111.71875,1,1
+Mobile,Samsung Galaxy S22 128GB,83800,Like New,Samsung,Galaxy S22,128,0.5,Putalisadak,,9.0,6,92087.91,0.09,0.91,0.9,654.6875,1,3
+Mobile,Apple iPhone 14 Pro 256GB,139300,Like New,Apple,iPhone 14 Pro,256,2.0,Nepalgunj,,9.0,24,176329.11,0.21000000000000002,0.79,0.9,544.140625,1,1
+Mobile,Apple iPhone 14 Pro 1024GB,191500,Excellent,Apple,iPhone 14 Pro,1024,1.0,Bhaktapur,,8.0,12,233536.59,0.18,0.8200000000000001,0.8,187.01171875,1,1
+Laptop,Acer Extensa 15 256GB SSD,27000,Good,Acer,Acer Extensa 15,256,1.0,Lalitpur,,6.0,12,37500.0,0.28,0.72,0.6,105.46875,0,8
+Laptop,Dell Latitude 5420 1000GB SSD,57800,Good,Dell,Dell Latitude 5420,1000,1.0,Birgunj,,6.0,12,80277.78,0.28,0.72,0.6,57.8,0,2
+Mobile,Nothing Phone 2 64GB,36300,Good,Nothing,Nothing Phone 2,64,2.0,Bhaktapur,,6.0,24,56718.75,0.36,0.64,0.6,567.1875,1,0
+Mobile,Realme Narzo 60 128GB,8000,Fair,Realme,Realme Narzo 60,128,4.0,Koteshwor,,5.0,48,18604.65,0.5700000000000001,0.42999999999999994,0.5,62.5,1,14
+Mobile,Google Pixel 8 128GB,89500,New,Google,Pixel 8,128,0.0,Chitwan,,10.0,0,94210.53,0.05,0.95,1.0,699.21875,1,0
+Mobile,Samsung Galaxy A54 512GB,56800,New,Samsung,Galaxy A54,512,0.0,Biratnagar,,10.0,0,59789.47,0.05,0.95,1.0,110.9375,1,3
+Laptop,Asus TUF Gaming F15 512GB SSD,83400,Excellent,Asus,Asus TUF Gaming F15,512,1.0,New Road,,8.0,12,101707.32,0.18,0.8200000000000001,0.8,162.890625,0,4
+Mobile,Apple iPhone 11 128GB,73600,New,Apple,iPhone 11,128,1.0,Boudha,,10.0,12,80000.0,0.08,0.92,1.0,575.0,1,1
+Laptop,HP Envy 13 256GB SSD,105500,New,HP,HP Envy 13,256,0.5,Pokhara,,10.0,6,111052.63,0.05,0.95,1.0,412.109375,0,5
+Laptop,Dell Vostro 15 512GB SSD,40600,Excellent,Dell,Dell Vostro 15,512,2.0,Kalanki,,8.0,24,54864.86,0.26,0.74,0.8,79.296875,0,2
+Mobile,Samsung Galaxy S24 512GB,167700,New,Samsung,Galaxy S24,512,0.5,Dharan,,10.0,6,176526.32,0.05,0.95,1.0,327.5390625,1,3
+Mobile,Oppo Find X6 128GB,46900,Good,Oppo,Oppo Find X6,128,2.5,Kalanki,,6.0,30,78166.67,0.4,0.6,0.6,366.40625,1,11
+Laptop,Asus ROG Strix G15 512GB SSD,154800,New,Asus,Asus ROG Strix G15,512,0.5,Koteshwor,,10.0,6,162947.37,0.05,0.95,1.0,302.34375,0,4
+Laptop,Asus ZenBook 14 512GB SSD,69900,Excellent,Asus,Asus ZenBook 14,512,2.0,Boudha,,8.0,24,94459.46,0.26,0.74,0.8,136.5234375,0,4
+Mobile,Apple iPhone 13 128GB,114600,New,Apple,iPhone 13,128,0.0,Bhaktapur,,10.0,0,120631.58,0.05,0.95,1.0,895.3125,1,1
+Mobile,Apple iPhone 14 512GB,149700,New,Apple,iPhone 14,512,0.5,Dharan,,10.0,6,157578.95,0.05,0.95,1.0,292.3828125,1,1
+Laptop,HP Envy 13 1000GB SSD,70300,Good,HP,HP Envy 13,1000,2.5,Nepalgunj,,6.0,30,117166.67,0.4,0.6,0.6,70.3,0,5
+Laptop,Dell Inspiron 15 256GB SSD,39200,Good,Dell,Dell Inspiron 15,256,1.0,Baneshwor,,6.0,12,54444.44,0.28,0.72,0.6,153.125,0,2
+Mobile,Oppo A78 64GB,17300,Excellent,Oppo,Oppo A78,64,2.0,New Road,,8.0,24,23378.38,0.26,0.74,0.8,270.3125,1,11
+Mobile,Samsung Galaxy S24 512GB,161300,New,Samsung,Galaxy S24,512,0.0,Lalitpur,,10.0,0,169789.47,0.05,0.95,1.0,315.0390625,1,3
+Mobile,Apple iPhone 12 128GB,95500,New,Apple,iPhone 12,128,0.0,Chabahil,,10.0,0,100526.32,0.05,0.95,1.0,746.09375,1,1
+Laptop,Apple MacBook Air M3 512GB,117100,Good,Apple,MacBook Air M3,512,1.0,Pokhara,,6.0,12,162638.89,0.28,0.72,0.6,228.7109375,0,1
+Mobile,Honor X9a 256GB,25800,Like New,Honor,Honor X9a,256,2.5,New Road,,9.0,30,34400.0,0.25,0.75,0.9,100.78125,1,0
+Laptop,Dell Vostro 15 1000GB SSD,46700,Excellent,Dell,Dell Vostro 15,1000,1.0,Chitwan,,8.0,12,56951.22,0.18,0.8200000000000001,0.8,46.7,0,2
+Laptop,Microsoft Surface Laptop 5 1000GB SSD,148900,Like New,Microsoft,Surface Laptop 5,1000,0.0,Lalitpur,,9.0,0,156736.84,0.05,0.95,0.9,148.9,0,9
+Mobile,Honor 90 256GB,46600,New,Honor,Honor 90,256,0.0,Baneshwor,,10.0,0,49052.63,0.05,0.95,1.0,182.03125,1,0
+Laptop,Apple MacBook Air M2 512GB,136400,Excellent,Apple,MacBook Air M2,512,0.5,Dharan,,8.0,6,158604.65,0.14,0.86,0.8,266.40625,0,1
+Laptop,Microsoft Surface Laptop Go 3 256GB SSD,62300,Excellent,Microsoft,Surface Laptop Go 3,256,0.5,Chabahil,,8.0,6,72441.86,0.14,0.86,0.8,243.359375,0,9
+Laptop,Dell Inspiron 15 1000GB SSD,25000,Fair,Dell,Dell Inspiron 15,1000,4.0,Baneshwor,,5.0,48,58139.53,0.5700000000000001,0.42999999999999994,0.5,25.0,0,2
+Laptop,HP ProBook 440 256GB SSD,71500,Like New,HP,HP ProBook 440,256,1.0,Chabahil,,9.0,12,82183.91,0.13,0.87,0.9,279.296875,0,5
+Mobile,Redmi 12 256GB,8000,Fair,Redmi,Redmi 12,256,2.5,Chabahil,,5.0,30,14545.45,0.45,0.55,0.5,31.25,1,12
+Laptop,Acer Aspire 5 256GB SSD,35900,Excellent,Acer,Acer Aspire 5,256,1.5,Bharatpur,,8.0,18,46025.64,0.22,0.78,0.8,140.234375,0,8
+Laptop,Microsoft Surface Pro 9 512GB SSD,93400,Good,Microsoft,Surface Pro 9,512,1.5,Biratnagar,,6.0,18,137352.94,0.32,0.6799999999999999,0.6,182.421875,0,9
+Laptop,Lenovo ThinkPad E14 1000GB SSD,90100,Like New,Lenovo,Lenovo ThinkPad E14,1000,1.0,Chitwan,,9.0,12,103563.22,0.13,0.87,0.9,90.1,0,6
+Laptop,Microsoft Surface Pro 9 256GB SSD,122600,Like New,Microsoft,Surface Pro 9,256,1.5,Bhaktapur,,9.0,18,147710.84,0.16999999999999998,0.8300000000000001,0.9,478.90625,0,9
+Mobile,Vivo Y36 128GB,19800,Like New,Vivo,Vivo Y36,128,1.0,New Road,,9.0,12,22758.62,0.13,0.87,0.9,154.6875,1,15
+Mobile,Oppo A78 64GB,16500,Excellent,Oppo,Oppo A78,64,2.0,Chabahil,,8.0,24,22297.3,0.26,0.74,0.8,257.8125,1,11
+Laptop,Lenovo Yoga 7 512GB SSD,51500,Good,Lenovo,Lenovo Yoga 7,512,2.5,Bharatpur,,6.0,30,85833.33,0.4,0.6,0.6,100.5859375,0,6
+Mobile,Samsung Galaxy A34 256GB,17900,Good,Samsung,Galaxy A34,256,3.0,Bhaktapur,,6.0,36,31964.29,0.44,0.56,0.6,69.921875,1,3
+Mobile,OnePlus 10 Pro 512GB,75100,Like New,OnePlus,OnePlus 10 Pro,512,1.5,Lalitpur,,9.0,18,90481.93,0.16999999999999998,0.8300000000000001,0.9,146.6796875,1,10
+Mobile,Samsung Galaxy S24 128GB,99800,Excellent,Samsung,Galaxy S24,128,1.0,Hetauda,,8.0,12,121707.32,0.18,0.8200000000000001,0.8,779.6875,1,3
+Mobile,Apple iPhone 13 Pro 256GB,61900,Fair,Apple,iPhone 13 Pro,256,2.5,Chabahil,,5.0,30,112545.45,0.45,0.55,0.5,241.796875,1,1
+Laptop,Asus ZenBook 14 512GB SSD,54300,Good,Asus,Asus ZenBook 14,512,3.0,Baneshwor,,6.0,36,96964.29,0.44,0.56,0.6,106.0546875,0,4
+Laptop,Lenovo ThinkPad E14 256GB SSD,80300,New,Lenovo,Lenovo ThinkPad E14,256,1.0,Kalanki,,10.0,12,87282.61,0.08,0.92,1.0,313.671875,0,6
+Laptop,Dell Vostro 15 512GB SSD,50500,Like New,Dell,Dell Vostro 15,512,0.5,Chabahil,,9.0,6,55494.51,0.09,0.91,0.9,98.6328125,0,2
+Laptop,Acer Extensa 15 1000GB SSD,49600,New,Acer,Acer Extensa 15,1000,0.5,Koteshwor,,10.0,6,52210.53,0.05,0.95,1.0,49.6,0,8
+Laptop,Apple MacBook Air M1 1000GB,159900,New,Apple,MacBook Air M1,1000,0.0,Birgunj,,10.0,0,168315.79,0.05,0.95,1.0,159.9,0,1
+Mobile,Apple iPhone 13 Pro 256GB,143800,New,Apple,iPhone 13 Pro,256,1.0,Chitwan,,10.0,12,156304.35,0.08,0.92,1.0,561.71875,1,1
+Mobile,Vivo X90 256GB,73500,New,Vivo,Vivo X90,256,0.0,Lalitpur,,10.0,0,77368.42,0.05,0.95,1.0,287.109375,1,15
+Mobile,Samsung Galaxy A14 512GB,20400,New,Samsung,Galaxy A14,512,0.0,Pokhara,,10.0,0,21473.68,0.05,0.95,1.0,39.84375,1,3
+Mobile,Xiaomi Redmi Note 12 64GB,15200,Excellent,Xiaomi,Redmi Note 12,64,1.5,New Road,,8.0,18,19487.18,0.22,0.78,0.8,237.5,1,7
+Laptop,MSI GF63 Thin 256GB SSD,54900,Good,MSI,MSI GF63 Thin,256,0.5,Putalisadak,,6.0,6,72236.84,0.24000000000000002,0.76,0.6,214.453125,0,13
+Mobile,Xiaomi Redmi Note 13 Pro 256GB,27200,Like New,Xiaomi,Redmi Note 13 Pro,256,2.0,Lalitpur,,9.0,24,34430.38,0.21000000000000002,0.79,0.9,106.25,1,7
+Laptop,HP Envy 13 256GB SSD,56600,Good,HP,HP Envy 13,256,2.0,Koteshwor,,6.0,24,88437.5,0.36,0.64,0.6,221.09375,0,5
+Laptop,Dell Latitude 5420 1000GB SSD,78800,Like New,Dell,Dell Latitude 5420,1000,1.0,Baneshwor,,9.0,12,90574.71,0.13,0.87,0.9,78.8,0,2
+Mobile,Samsung Galaxy A34 256GB,12800,Fair,Samsung,Galaxy A34,256,4.0,Putalisadak,,5.0,48,29767.44,0.5700000000000001,0.42999999999999994,0.5,50.0,1,3
+Mobile,Oppo A58 128GB,10800,Good,Oppo,Oppo A58,128,1.5,Birgunj,,6.0,18,15882.35,0.32,0.6799999999999999,0.6,84.375,1,11
+Laptop,Dell Inspiron 15 256GB SSD,51400,Like New,Dell,Dell Inspiron 15,256,1.0,Lalitpur,,9.0,12,59080.46,0.13,0.87,0.9,200.78125,0,2
+Laptop,Apple MacBook Pro 14 M2 1000GB,304200,Like New,Apple,MacBook Pro 14 M2,1000,0.0,Bhaktapur,,9.0,0,320210.53,0.05,0.95,0.9,304.2,0,1
+Laptop,Dell XPS 15 1000GB SSD,156200,Like New,Dell,Dell XPS 15,1000,2.0,Putalisadak,,9.0,24,197721.52,0.21000000000000002,0.79,0.9,156.2,0,2
+Mobile,Xiaomi 14 256GB,67100,Excellent,Xiaomi,Xiaomi 14,256,2.0,Pokhara,,8.0,24,90675.68,0.26,0.74,0.8,262.109375,1,7
+Laptop,Dell XPS 15 512GB SSD,147100,Excellent,Dell,Dell XPS 15,512,0.5,Chabahil,,8.0,6,171046.51,0.14,0.86,0.8,287.3046875,0,2
+Mobile,Redmi Note 13 Pro 128GB,18000,Good,Redmi,Redmi Note 13 Pro,128,3.0,Lalitpur,,6.0,36,32142.86,0.44,0.56,0.6,140.625,1,12
+Mobile,OnePlus 12 128GB,69600,Good,OnePlus,OnePlus 12,128,0.5,Pokhara,,6.0,6,91578.95,0.24000000000000002,0.76,0.6,543.75,1,10
+Laptop,MSI Katana 15 1000GB SSD,134900,New,MSI,MSI Katana 15,1000,1.0,Dharan,,10.0,12,146630.43,0.08,0.92,1.0,134.9,0,13
+Laptop,Asus TUF Gaming F15 512GB SSD,116700,Like New,Asus,Asus TUF Gaming F15,512,0.0,Chitwan,,9.0,0,122842.11,0.05,0.95,0.9,227.9296875,0,4
+Mobile,Xiaomi Redmi Note 13 Pro 64GB,11800,Fair,Xiaomi,Redmi Note 13 Pro,64,4.0,Koteshwor,,5.0,48,27441.86,0.5700000000000001,0.42999999999999994,0.5,184.375,1,7
+Laptop,HP 15s 512GB SSD,46200,Like New,HP,HP 15s,512,0.5,Hetauda,,9.0,6,50769.23,0.09,0.91,0.9,90.234375,0,5
+Mobile,Realme C55 64GB,16000,New,Realme,Realme C55,64,0.0,Biratnagar,,10.0,0,16842.11,0.05,0.95,1.0,250.0,1,14
+Laptop,Dell Vostro 15 512GB SSD,27900,Fair,Dell,Dell Vostro 15,512,1.5,Bhaktapur,,5.0,18,44285.71,0.37,0.63,0.5,54.4921875,0,2
+Mobile,Vivo V27 64GB,21700,Good,Vivo,Vivo V27,64,2.0,Chabahil,,6.0,24,33906.25,0.36,0.64,0.6,339.0625,1,15
+Laptop,Acer Extensa 15 512GB SSD,40500,Like New,Acer,Acer Extensa 15,512,1.0,Bhaktapur,,9.0,12,46551.72,0.13,0.87,0.9,79.1015625,0,8
+Laptop,MSI Katana 15 2000GB SSD,85800,Good,MSI,MSI Katana 15,2000,2.5,Baneshwor,,6.0,30,143000.0,0.4,0.6,0.6,42.9,0,13
+Mobile,Apple iPhone 12 256GB,102100,New,Apple,iPhone 12,256,0.0,Kathmandu,,10.0,0,107473.68,0.05,0.95,1.0,398.828125,1,1
+Laptop,HP Envy 13 256GB SSD,84700,Like New,HP,HP Envy 13,256,2.0,Koteshwor,,9.0,24,107215.19,0.21000000000000002,0.79,0.9,330.859375,0,5
+Mobile,Oppo Find X6 64GB,51400,Excellent,Oppo,Oppo Find X6,64,1.5,Chabahil,,8.0,18,65897.44,0.22,0.78,0.8,803.125,1,11
+Mobile,Apple iPhone 14 512GB,99000,Good,Apple,iPhone 14,512,1.5,Butwal,,6.0,18,145588.24,0.32,0.6799999999999999,0.6,193.359375,1,1
+Laptop,MSI GF63 Thin 1000GB SSD,77100,Excellent,MSI,MSI GF63 Thin,1000,0.5,Kathmandu,,8.0,6,89651.16,0.14,0.86,0.8,77.1,0,13
+Mobile,Samsung Galaxy S21 128GB,69000,Like New,Samsung,Galaxy S21,128,1.0,Biratnagar,,9.0,12,79310.34,0.13,0.87,0.9,539.0625,1,3
+Mobile,Redmi 13C 128GB,11900,Like New,Redmi,Redmi 13C,128,1.0,Kathmandu,,9.0,12,13678.16,0.13,0.87,0.9,92.96875,1,12
+Laptop,Acer Extensa 15 512GB SSD,25000,Good,Acer,Acer Extensa 15,512,2.5,Baneshwor,,6.0,30,41666.67,0.4,0.6,0.6,48.828125,0,8
+Laptop,Asus ROG Strix G15 2000GB SSD,143100,Excellent,Asus,Asus ROG Strix G15,2000,1.0,Dharan,,8.0,12,174512.2,0.18,0.8200000000000001,0.8,71.55,0,4
+Mobile,Realme 10 Pro 64GB,18200,Excellent,Realme,Realme 10 Pro,64,2.0,Koteshwor,,8.0,24,24594.59,0.26,0.74,0.8,284.375,1,14
+Mobile,Oppo Reno 10 128GB,32300,Excellent,Oppo,Oppo Reno 10,128,2.5,Baneshwor,,8.0,30,46142.86,0.30000000000000004,0.7,0.8,252.34375,1,11
+Laptop,Acer Swift 3 512GB SSD,50000,Excellent,Acer,Acer Swift 3,512,2.0,Kalanki,,8.0,24,67567.57,0.26,0.74,0.8,97.65625,0,8
+Mobile,Oppo Reno 10 128GB,36100,Excellent,Oppo,Oppo Reno 10,128,1.5,Butwal,,8.0,18,46282.05,0.22,0.78,0.8,282.03125,1,11
+Mobile,Apple iPhone 15 256GB,125700,Excellent,Apple,iPhone 15,256,1.5,Kalanki,,8.0,18,161153.85,0.22,0.78,0.8,491.015625,1,1
+Mobile,Samsung Galaxy S23 256GB,78600,Good,Samsung,Galaxy S23,256,1.5,Koteshwor,,6.0,18,115588.24,0.32,0.6799999999999999,0.6,307.03125,1,3
+Laptop,HP Victus 15 1000GB SSD,48400,Fair,HP,HP Victus 15,1000,1.5,New Road,,5.0,18,76825.4,0.37,0.63,0.5,48.4,0,5
+Mobile,Redmi 12 256GB,12900,Excellent,Redmi,Redmi 12,256,1.0,Koteshwor,,8.0,12,15731.71,0.18,0.8200000000000001,0.8,50.390625,1,12
+Mobile,Apple iPhone 14 Pro 1024GB,171500,Excellent,Apple,iPhone 14 Pro,1024,2.0,Boudha,,8.0,24,231756.76,0.26,0.74,0.8,167.48046875,1,1
+Mobile,Nothing Phone 2 128GB,42800,Excellent,Nothing,Nothing Phone 2,128,2.0,Baneshwor,,8.0,24,57837.84,0.26,0.74,0.8,334.375,1,0
+Laptop,Lenovo ThinkPad E14 512GB SSD,44500,Fair,Lenovo,Lenovo ThinkPad E14,512,1.5,Hetauda,,5.0,18,70634.92,0.37,0.63,0.5,86.9140625,0,6
+Mobile,Oppo Reno 10 256GB,48600,Like New,Oppo,Oppo Reno 10,256,1.0,Koteshwor,,9.0,12,55862.07,0.13,0.87,0.9,189.84375,1,11
+Laptop,Acer Extensa 15 512GB SSD,43400,New,Acer,Acer Extensa 15,512,1.5,Biratnagar,,10.0,18,49318.18,0.12,0.88,1.0,84.765625,0,8
+Mobile,Apple iPhone 15 128GB,104100,Excellent,Apple,iPhone 15,128,2.5,Dharan,,8.0,30,148714.29,0.30000000000000004,0.7,0.8,813.28125,1,1
+Mobile,Vivo X90 128GB,46100,Excellent,Vivo,Vivo X90,128,1.5,Hetauda,,8.0,18,59102.56,0.22,0.78,0.8,360.15625,1,15
+Mobile,Oppo Reno 8 256GB,27500,Good,Oppo,Oppo Reno 8,256,1.0,Kathmandu,,6.0,12,38194.44,0.28,0.72,0.6,107.421875,1,11
+Laptop,Dell Vostro 15 512GB SSD,38600,Excellent,Dell,Dell Vostro 15,512,2.0,Chitwan,,8.0,24,52162.16,0.26,0.74,0.8,75.390625,0,2
+Mobile,Oppo Reno 10 64GB,22200,Fair,Oppo,Oppo Reno 10,64,2.0,Putalisadak,,5.0,24,37627.12,0.41000000000000003,0.59,0.5,346.875,1,11
+Laptop,Lenovo Yoga 7 512GB SSD,32500,Used,Lenovo,Lenovo Yoga 7,512,2.5,Dharan,,5.0,30,59090.91,0.45,0.55,0.5,63.4765625,0,6
+Laptop,MSI Modern 14 1000GB SSD,78700,New,MSI,MSI Modern 14,1000,0.5,Kalanki,,10.0,6,82842.11,0.05,0.95,1.0,78.7,0,13
+Mobile,Xiaomi Redmi Note 13 64GB,19800,Like New,Xiaomi,Redmi Note 13,64,1.0,Koteshwor,,9.0,12,22758.62,0.13,0.87,0.9,309.375,1,7
+Laptop,Asus ZenBook 14 1000GB SSD,103400,Like New,Asus,Asus ZenBook 14,1000,0.5,Boudha,,9.0,6,113626.37,0.09,0.91,0.9,103.4,0,4
+Mobile,Vivo X90 256GB,67500,Like New,Vivo,Vivo X90,256,0.5,Koteshwor,,9.0,6,74175.82,0.09,0.91,0.9,263.671875,1,15
+Laptop,Lenovo V15 512GB SSD,32100,Excellent,Lenovo,Lenovo V15,512,1.5,Baneshwor,,8.0,18,41153.85,0.22,0.78,0.8,62.6953125,0,6
+Mobile,Apple iPhone 11 64GB,46600,Excellent,Apple,iPhone 11,64,1.0,Kalanki,,8.0,12,56829.27,0.18,0.8200000000000001,0.8,728.125,1,1
+Laptop,Asus ZenBook 14 1000GB SSD,121900,New,Asus,Asus ZenBook 14,1000,0.0,Pokhara,,10.0,0,128315.79,0.05,0.95,1.0,121.9,0,4
+Mobile,OnePlus 12 256GB,109400,Like New,OnePlus,OnePlus 12,256,0.0,Lalitpur,,9.0,0,115157.89,0.05,0.95,0.9,427.34375,1,10
+Laptop,Dell Inspiron 15 256GB SSD,25000,Used,Dell,Dell Inspiron 15,256,3.0,Kalanki,,5.0,36,49019.61,0.49,0.51,0.5,97.65625,0,2
+Laptop,Acer Extensa 15 256GB SSD,25000,Good,Acer,Acer Extensa 15,256,2.5,Chitwan,,6.0,30,41666.67,0.4,0.6,0.6,97.65625,0,8
+Laptop,Lenovo IdeaPad Slim 3 256GB SSD,43100,Like New,Lenovo,Lenovo IdeaPad Slim 3,256,0.5,Baneshwor,,9.0,6,47362.64,0.09,0.91,0.9,168.359375,0,6
+Laptop,Lenovo Legion 5 512GB SSD,129000,New,Lenovo,Lenovo Legion 5,512,0.0,Chabahil,,10.0,0,135789.47,0.05,0.95,1.0,251.953125,0,6
+Mobile,Apple iPhone 12 256GB,89400,Like New,Apple,iPhone 12,256,0.5,Lalitpur,,9.0,6,98241.76,0.09,0.91,0.9,349.21875,1,1
+Mobile,Xiaomi Redmi Note 12 64GB,13000,Excellent,Xiaomi,Redmi Note 12,64,2.5,Birgunj,,8.0,30,18571.43,0.30000000000000004,0.7,0.8,203.125,1,7
+Mobile,Redmi Note 13 Pro 128GB,29700,New,Redmi,Redmi Note 13 Pro,128,1.5,Putalisadak,,10.0,18,33750.0,0.12,0.88,1.0,232.03125,1,12
+Mobile,OnePlus Nord CE 3 128GB,21700,Good,OnePlus,OnePlus Nord CE 3,128,0.5,New Road,,6.0,6,28552.63,0.24000000000000002,0.76,0.6,169.53125,1,10
+Laptop,Acer Aspire 5 1000GB SSD,44000,Excellent,Acer,Acer Aspire 5,1000,1.5,Hetauda,,8.0,18,56410.26,0.22,0.78,0.8,44.0,0,8
+Laptop,HP ProBook 440 1000GB SSD,68300,Excellent,HP,HP ProBook 440,1000,2.0,Kalanki,,8.0,24,92297.3,0.26,0.74,0.8,68.3,0,5
+Laptop,Asus ROG Strix G15 2000GB SSD,193600,Like New,Asus,Asus ROG Strix G15,2000,0.0,Lalitpur,,9.0,0,203789.47,0.05,0.95,0.9,96.8,0,4
+Mobile,Xiaomi 13 128GB,48000,Excellent,Xiaomi,Xiaomi 13,128,2.0,Bhaktapur,,8.0,24,64864.86,0.26,0.74,0.8,375.0,1,7
+Mobile,Redmi 13C 256GB,8500,Good,Redmi,Redmi 13C,256,1.5,Putalisadak,,6.0,18,12500.0,0.32,0.6799999999999999,0.6,33.203125,1,12
+Mobile,Oppo Find X6 256GB,77600,Like New,Oppo,Oppo Find X6,256,1.0,Dharan,,9.0,12,89195.4,0.13,0.87,0.9,303.125,1,11
+Mobile,Apple iPhone 14 256GB,154500,New,Apple,iPhone 14,256,0.5,Kathmandu,,10.0,6,162631.58,0.05,0.95,1.0,603.515625,1,1
+Laptop,Dell XPS 15 256GB SSD,132100,Excellent,Dell,Dell XPS 15,256,1.0,Lalitpur,,8.0,12,161097.56,0.18,0.8200000000000001,0.8,516.015625,0,2
+Mobile,Samsung Galaxy A34 256GB,15400,Fair,Samsung,Galaxy A34,256,2.0,Kalanki,,5.0,24,26101.69,0.41000000000000003,0.59,0.5,60.15625,1,3
+Mobile,Realme GT Neo 3 64GB,37500,Excellent,Realme,Realme GT Neo 3,64,1.0,Birgunj,,8.0,12,45731.71,0.18,0.8200000000000001,0.8,585.9375,1,14
+Laptop,Apple MacBook Air M2 1000GB,190500,New,Apple,MacBook Air M2,1000,0.0,Koteshwor,,10.0,0,200526.32,0.05,0.95,1.0,190.5,0,1
+Mobile,Samsung Galaxy S23 512GB,91200,Excellent,Samsung,Galaxy S23,512,2.5,Putalisadak,,8.0,30,130285.71,0.30000000000000004,0.7,0.8,178.125,1,3
+Laptop,HP Victus 15 256GB SSD,74600,Excellent,HP,HP Victus 15,256,0.5,Baneshwor,,8.0,6,86744.19,0.14,0.86,0.8,291.40625,0,5
+Mobile,Apple iPhone 15 Pro 256GB,162900,Excellent,Apple,iPhone 15 Pro,256,1.5,Pokhara,,8.0,18,208846.15,0.22,0.78,0.8,636.328125,1,1
+Laptop,Dell XPS 15 1000GB SSD,198700,New,Dell,Dell XPS 15,1000,1.0,Putalisadak,,10.0,12,215978.26,0.08,0.92,1.0,198.7,0,2
+Mobile,Xiaomi 14 64GB,64700,Excellent,Xiaomi,Xiaomi 14,64,1.0,Kathmandu,,8.0,12,78902.44,0.18,0.8200000000000001,0.8,1010.9375,1,7
+Laptop,Lenovo IdeaPad Slim 3 1000GB SSD,25000,Fair,Lenovo,Lenovo IdeaPad Slim 3,1000,4.0,Bhaktapur,,5.0,48,58139.53,0.5700000000000001,0.42999999999999994,0.5,25.0,0,6
+Laptop,Dell Inspiron 15 512GB SSD,56700,Like New,Dell,Dell Inspiron 15,512,0.5,Biratnagar,,9.0,6,62307.69,0.09,0.91,0.9,110.7421875,0,2
+Laptop,Apple MacBook Air M1 256GB,142900,New,Apple,MacBook Air M1,256,0.0,Biratnagar,,10.0,0,150421.05,0.05,0.95,1.0,558.203125,0,1
+Laptop,HP 15s 256GB SSD,37000,Excellent,HP,HP 15s,256,1.0,Butwal,,8.0,12,45121.95,0.18,0.8200000000000001,0.8,144.53125,0,5
+Laptop,Asus ZenBook 14 1000GB SSD,94900,Like New,Asus,Asus ZenBook 14,1000,1.0,Chabahil,,9.0,12,109080.46,0.13,0.87,0.9,94.9,0,4
+Mobile,Xiaomi Redmi Note 13 64GB,21600,New,Xiaomi,Redmi Note 13,64,2.0,Pokhara,,10.0,24,25714.29,0.16,0.84,1.0,337.5,1,7
+Mobile,Redmi Note 13 Pro 128GB,18500,Good,Redmi,Redmi Note 13 Pro,128,2.5,Bhaktapur,,6.0,30,30833.33,0.4,0.6,0.6,144.53125,1,12
+Mobile,Honor 70 64GB,20200,Excellent,Honor,Honor 70,64,3.0,Biratnagar,,8.0,36,30606.06,0.33999999999999997,0.66,0.8,315.625,1,0
+Mobile,OnePlus 11 128GB,102500,New,OnePlus,OnePlus 11,128,0.0,Pokhara,,10.0,0,107894.74,0.05,0.95,1.0,800.78125,1,10
+Mobile,Samsung Galaxy A54 512GB,38700,Excellent,Samsung,Galaxy A54,512,0.0,Putalisadak,,8.0,0,43000.0,0.1,0.9,0.8,75.5859375,1,3
+Laptop,HP ProBook 440 1000GB SSD,63700,Good,HP,HP ProBook 440,1000,1.0,New Road,,6.0,12,88472.22,0.28,0.72,0.6,63.7,0,5
+Laptop,MSI Modern 14 256GB SSD,41900,Excellent,MSI,MSI Modern 14,256,3.0,Boudha,,8.0,36,63484.85,0.33999999999999997,0.66,0.8,163.671875,0,13
+Mobile,Samsung Galaxy A34 128GB,25400,Excellent,Samsung,Galaxy A34,128,1.5,Kalanki,,8.0,18,32564.1,0.22,0.78,0.8,198.4375,1,3
+Mobile,Apple iPhone 13 Pro 256GB,107100,Good,Apple,iPhone 13 Pro,256,0.5,Pokhara,,6.0,6,140921.05,0.24000000000000002,0.76,0.6,418.359375,1,1
+Laptop,HP 15s 256GB SSD,39200,Like New,HP,HP 15s,256,1.5,Bhaktapur,,9.0,18,47228.92,0.16999999999999998,0.8300000000000001,0.9,153.125,0,5
+Mobile,Samsung Galaxy A14 512GB,13700,Excellent,Samsung,Galaxy A14,512,2.0,Nepalgunj,,8.0,24,18513.51,0.26,0.74,0.8,26.7578125,1,3
+Laptop,Asus ROG Strix G15 1000GB SSD,178000,New,Asus,Asus ROG Strix G15,1000,0.0,Birgunj,,10.0,0,187368.42,0.05,0.95,1.0,178.0,0,4
+Mobile,Apple iPhone 13 Pro 128GB,105900,Excellent,Apple,iPhone 13 Pro,128,0.5,Chabahil,,8.0,6,123139.53,0.14,0.86,0.8,827.34375,1,1
+Laptop,Acer Nitro 5 512GB SSD,94300,New,Acer,Acer Nitro 5,512,1.0,New Road,,10.0,12,102500.0,0.08,0.92,1.0,184.1796875,0,8
+Laptop,Asus ZenBook 14 256GB SSD,76100,Like New,Asus,Asus ZenBook 14,256,2.0,Kathmandu,,9.0,24,96329.11,0.21000000000000002,0.79,0.9,297.265625,0,4
+Laptop,Acer Nitro 5 512GB SSD,91100,Like New,Acer,Acer Nitro 5,512,0.5,Hetauda,,9.0,6,100109.89,0.09,0.91,0.9,177.9296875,0,8
+Laptop,Asus ROG Strix G15 1000GB SSD,142400,Excellent,Asus,Asus ROG Strix G15,1000,0.5,Chitwan,,8.0,6,165581.4,0.14,0.86,0.8,142.4,0,4
+Mobile,Google Pixel 7a 512GB,43700,Excellent,Google,Pixel 7a,512,1.0,Kalanki,,8.0,12,53292.68,0.18,0.8200000000000001,0.8,85.3515625,1,0
+Laptop,Dell XPS 13 256GB SSD,107100,Like New,Dell,Dell XPS 13,256,2.0,Pokhara,,9.0,24,135569.62,0.21000000000000002,0.79,0.9,418.359375,0,2
+Laptop,Lenovo V15 512GB SSD,36000,Excellent,Lenovo,Lenovo V15,512,1.5,Biratnagar,,8.0,18,46153.85,0.22,0.78,0.8,70.3125,0,6
+Mobile,Apple iPhone 14 1024GB,161900,Like New,Apple,iPhone 14,1024,0.5,Nepalgunj,,9.0,6,177912.09,0.09,0.91,0.9,158.10546875,1,1
+Mobile,Nothing Phone 1 64GB,39900,Like New,Nothing,Nothing Phone 1,64,0.5,Koteshwor,,9.0,6,43846.15,0.09,0.91,0.9,623.4375,1,0
+Laptop,Asus VivoBook 15 512GB SSD,44300,Like New,Asus,Asus VivoBook 15,512,2.0,Boudha,,9.0,24,56075.95,0.21000000000000002,0.79,0.9,86.5234375,0,4
+Laptop,Acer Swift 3 512GB SSD,55200,Like New,Acer,Acer Swift 3,512,1.5,Chitwan,,9.0,18,66506.02,0.16999999999999998,0.8300000000000001,0.9,107.8125,0,8
+Laptop,Lenovo V15 1000GB SSD,35100,Excellent,Lenovo,Lenovo V15,1000,1.5,Pokhara,,8.0,18,45000.0,0.22,0.78,0.8,35.1,0,6
+Laptop,Lenovo Yoga 7 1000GB SSD,129200,New,Lenovo,Lenovo Yoga 7,1000,0.0,Kathmandu,,10.0,0,136000.0,0.05,0.95,1.0,129.2,0,6
+Mobile,Oppo A78 256GB,21300,Like New,Oppo,Oppo A78,256,1.5,Biratnagar,,9.0,18,25662.65,0.16999999999999998,0.8300000000000001,0.9,83.203125,1,11
+Laptop,Acer Extensa 15 1000GB SSD,29100,Good,Acer,Acer Extensa 15,1000,1.5,Biratnagar,,6.0,18,42794.12,0.32,0.6799999999999999,0.6,29.1,0,8
+Mobile,Realme 10 Pro 64GB,20300,Like New,Realme,Realme 10 Pro,64,1.0,Birgunj,,9.0,12,23333.33,0.13,0.87,0.9,317.1875,1,14
+Mobile,Motorola Moto G54 128GB,11700,Excellent,Motorola,Moto G54,128,2.0,Hetauda,,8.0,24,15810.81,0.26,0.74,0.8,91.40625,1,0
+Mobile,Realme Narzo 60 128GB,8500,Fair,Realme,Realme Narzo 60,128,2.0,Butwal,,5.0,24,14406.78,0.41000000000000003,0.59,0.5,66.40625,1,14
+Mobile,Realme Narzo 60 64GB,8000,Fair,Realme,Realme Narzo 60,64,2.5,Biratnagar,,5.0,30,14545.45,0.45,0.55,0.5,125.0,1,14
+Mobile,Apple iPhone 13 128GB,82000,Excellent,Apple,iPhone 13,128,1.0,Chabahil,,8.0,12,100000.0,0.18,0.8200000000000001,0.8,640.625,1,1
+Laptop,Dell Vostro 15 256GB SSD,57100,New,Dell,Dell Vostro 15,256,0.0,Putalisadak,,10.0,0,60105.26,0.05,0.95,1.0,223.046875,0,2
+Laptop,Dell Vostro 15 256GB SSD,52200,New,Dell,Dell Vostro 15,256,1.5,Butwal,,10.0,18,59318.18,0.12,0.88,1.0,203.90625,0,2
+Mobile,Motorola Moto G32 128GB,8000,Fair,Motorola,Moto G32,128,0.5,Bhaktapur,,5.0,6,11267.61,0.29,0.71,0.5,62.5,1,0
+Laptop,Dell Inspiron 15 1000GB SSD,64500,Like New,Dell,Dell Inspiron 15,1000,0.0,Nepalgunj,,9.0,0,67894.74,0.05,0.95,0.9,64.5,0,2
+Mobile,Apple iPhone 13 Pro 512GB,126500,Like New,Apple,iPhone 13 Pro,512,2.0,Baneshwor,,9.0,24,160126.58,0.21000000000000002,0.79,0.9,247.0703125,1,1
+Laptop,Dell XPS 15 256GB SSD,192800,New,Dell,Dell XPS 15,256,0.0,Kalanki,,10.0,0,202947.37,0.05,0.95,1.0,753.125,0,2
+Mobile,Xiaomi Redmi 12 64GB,8000,Good,Xiaomi,Redmi 12,64,3.0,Chitwan,,6.0,36,14285.71,0.44,0.56,0.6,125.0,1,7
+Laptop,Acer Swift 3 512GB SSD,58500,Like New,Acer,Acer Swift 3,512,2.0,Bhaktapur,,9.0,24,74050.63,0.21000000000000002,0.79,0.9,114.2578125,0,8
+Mobile,Realme Narzo 60 64GB,15100,Excellent,Realme,Realme Narzo 60,64,1.5,Kalanki,,8.0,18,19358.97,0.22,0.78,0.8,235.9375,1,14
+Laptop,Dell Inspiron 15 512GB SSD,57600,Like New,Dell,Dell Inspiron 15,512,1.0,Lalitpur,,9.0,12,66206.9,0.13,0.87,0.9,112.5,0,2
+Laptop,Microsoft Surface Laptop Go 3 1000GB SSD,77100,Excellent,Microsoft,Surface Laptop Go 3,1000,0.5,Putalisadak,,8.0,6,89651.16,0.14,0.86,0.8,77.1,0,9
+Laptop,Apple MacBook Pro 14 M2 512GB,225900,Like New,Apple,MacBook Pro 14 M2,512,1.0,Pokhara,,9.0,12,259655.17,0.13,0.87,0.9,441.2109375,0,1
+Laptop,Apple MacBook Air M2 256GB,140500,Like New,Apple,MacBook Air M2,256,0.5,Bhaktapur,,9.0,6,154395.6,0.09,0.91,0.9,548.828125,0,1
+Mobile,Apple iPhone 15 Pro 256GB,190700,Like New,Apple,iPhone 15 Pro,256,0.5,Bhaktapur,,9.0,6,209560.44,0.09,0.91,0.9,744.921875,1,1
+Mobile,Samsung Galaxy S21 256GB,53200,Good,Samsung,Galaxy S21,256,1.5,Kalanki,,6.0,18,78235.29,0.32,0.6799999999999999,0.6,207.8125,1,3
+Laptop,Asus ZenBook 14 256GB SSD,39300,Fair,Asus,Asus ZenBook 14,256,2.5,Nepalgunj,,5.0,30,71454.55,0.45,0.55,0.5,153.515625,0,4
+Laptop,Microsoft Surface Laptop Go 3 256GB SSD,74500,Like New,Microsoft,Surface Laptop Go 3,256,0.5,Boudha,,9.0,6,81868.13,0.09,0.91,0.9,291.015625,0,9
+Mobile,Xiaomi Redmi Note 12 128GB,15500,Excellent,Xiaomi,Redmi Note 12,128,1.0,Biratnagar,,8.0,12,18902.44,0.18,0.8200000000000001,0.8,121.09375,1,7
+Mobile,Samsung Galaxy A54 128GB,42300,New,Samsung,Galaxy A54,128,0.0,Chabahil,,10.0,0,44526.32,0.05,0.95,1.0,330.46875,1,3
+Laptop,Lenovo Yoga 7 512GB SSD,101800,New,Lenovo,Lenovo Yoga 7,512,1.0,Boudha,,10.0,12,110652.17,0.08,0.92,1.0,198.828125,0,6
+Laptop,HP ProBook 440 512GB SSD,90700,New,HP,HP ProBook 440,512,0.0,Kalanki,,10.0,0,95473.68,0.05,0.95,1.0,177.1484375,0,5
+Laptop,Lenovo ThinkPad E14 1000GB SSD,91800,Like New,Lenovo,Lenovo ThinkPad E14,1000,0.0,Hetauda,,9.0,0,96631.58,0.05,0.95,0.9,91.8,0,6
+Laptop,Dell Latitude 5420 512GB SSD,58200,Good,Dell,Dell Latitude 5420,512,0.5,Bharatpur,,6.0,6,76578.95,0.24000000000000002,0.76,0.6,113.671875,0,2
+Mobile,OnePlus 11 128GB,89100,New,OnePlus,OnePlus 11,128,0.5,Putalisadak,,10.0,6,93789.47,0.05,0.95,1.0,696.09375,1,10
+Laptop,Asus ZenBook 14 512GB SSD,81000,Like New,Asus,Asus ZenBook 14,512,1.5,Kathmandu,,9.0,18,97590.36,0.16999999999999998,0.8300000000000001,0.9,158.203125,0,4
+Laptop,Dell Inspiron 15 256GB SSD,25900,Good,Dell,Dell Inspiron 15,256,4.0,Chitwan,,6.0,48,53958.33,0.52,0.48,0.6,101.171875,0,2
+Mobile,Xiaomi Redmi Note 13 128GB,20800,Like New,Xiaomi,Redmi Note 13,128,1.0,Pokhara,,9.0,12,23908.05,0.13,0.87,0.9,162.5,1,7
+Laptop,Dell XPS 15 512GB SSD,223400,New,Dell,Dell XPS 15,512,0.0,Kalanki,,10.0,0,235157.89,0.05,0.95,1.0,436.328125,0,2
+Mobile,Redmi Note 13 Pro 64GB,18700,Good,Redmi,Redmi Note 13 Pro,64,2.0,Chitwan,,6.0,24,29218.75,0.36,0.64,0.6,292.1875,1,12
+Mobile,Vivo X90 64GB,40200,Good,Vivo,Vivo X90,64,2.0,Chabahil,,6.0,24,62812.5,0.36,0.64,0.6,628.125,1,15
+Mobile,Apple iPhone 11 128GB,55800,Excellent,Apple,iPhone 11,128,0.5,Putalisadak,,8.0,6,64883.72,0.14,0.86,0.8,435.9375,1,1
+Mobile,Motorola Moto G84 128GB,13200,Good,Motorola,Moto G84,128,0.5,Hetauda,,6.0,6,17368.42,0.24000000000000002,0.76,0.6,103.125,1,0
+Mobile,Apple iPhone 14 Pro 512GB,152700,Excellent,Apple,iPhone 14 Pro,512,1.5,Koteshwor,,8.0,18,195769.23,0.22,0.78,0.8,298.2421875,1,1
+Laptop,HP Victus 15 512GB SSD,107500,New,HP,HP Victus 15,512,0.0,Baneshwor,,10.0,0,113157.89,0.05,0.95,1.0,209.9609375,0,5
+Mobile,Samsung Galaxy S23 256GB,98700,Excellent,Samsung,Galaxy S23,256,1.0,Bharatpur,,8.0,12,120365.85,0.18,0.8200000000000001,0.8,385.546875,1,3
+Mobile,Oppo A78 256GB,18200,Excellent,Oppo,Oppo A78,256,1.5,Kalanki,,8.0,18,23333.33,0.22,0.78,0.8,71.09375,1,11
+Laptop,Microsoft Surface Pro 9 512GB SSD,131000,Like New,Microsoft,Surface Pro 9,512,1.0,Chitwan,,9.0,12,150574.71,0.13,0.87,0.9,255.859375,0,9
+Laptop,Lenovo V15 512GB SSD,27600,Good,Lenovo,Lenovo V15,512,1.5,Birgunj,,6.0,18,40588.24,0.32,0.6799999999999999,0.6,53.90625,0,6
+Laptop,Dell XPS 15 256GB SSD,164500,Like New,Dell,Dell XPS 15,256,0.5,Dharan,,9.0,6,180769.23,0.09,0.91,0.9,642.578125,0,2
+Laptop,Apple MacBook Air M3 512GB,133900,Excellent,Apple,MacBook Air M3,512,1.0,Baneshwor,,8.0,12,163292.68,0.18,0.8200000000000001,0.8,261.5234375,0,1
+Mobile,Samsung Galaxy M34 128GB,23000,Like New,Samsung,Galaxy M34,128,0.0,Bhaktapur,,9.0,0,24210.53,0.05,0.95,0.9,179.6875,1,3
+Laptop,Lenovo ThinkPad E14 512GB SSD,95600,New,Lenovo,Lenovo ThinkPad E14,512,1.0,Bharatpur,,10.0,12,103913.04,0.08,0.92,1.0,186.71875,0,6
+Laptop,Lenovo V15 256GB SSD,32200,Excellent,Lenovo,Lenovo V15,256,1.5,Lalitpur,,8.0,18,41282.05,0.22,0.78,0.8,125.78125,0,6
+Laptop,Lenovo Legion 5 512GB SSD,127000,New,Lenovo,Lenovo Legion 5,512,0.0,Baneshwor,,10.0,0,133684.21,0.05,0.95,1.0,248.046875,0,6
+Laptop,Apple MacBook Air M1 512GB,69800,Fair,Apple,MacBook Air M1,512,0.5,Birgunj,,5.0,6,98309.86,0.29,0.71,0.5,136.328125,0,1
+Mobile,Realme GT Neo 3 256GB,45900,Like New,Realme,Realme GT Neo 3,256,1.0,Nepalgunj,,9.0,12,52758.62,0.13,0.87,0.9,179.296875,1,14
+Mobile,Samsung Galaxy S24 128GB,141000,New,Samsung,Galaxy S24,128,0.0,Bhaktapur,,10.0,0,148421.05,0.05,0.95,1.0,1101.5625,1,3
+Laptop,HP Pavilion 15 1000GB SSD,79800,New,HP,HP Pavilion 15,1000,0.5,Bhaktapur,,10.0,6,84000.0,0.05,0.95,1.0,79.8,0,5
+Mobile,Xiaomi Redmi 13C 256GB,9800,Like New,Xiaomi,Redmi 13C,256,3.0,Chitwan,,9.0,36,13802.82,0.29,0.71,0.9,38.28125,1,7
+Laptop,Lenovo Legion 5 1000GB SSD,123300,Like New,Lenovo,Lenovo Legion 5,1000,0.5,Pokhara,,9.0,6,135494.51,0.09,0.91,0.9,123.3,0,6
+Laptop,HP 15s 1000GB SSD,43500,Excellent,HP,HP 15s,1000,1.0,Pokhara,,8.0,12,53048.78,0.18,0.8200000000000001,0.8,43.5,0,5
+Laptop,HP Pavilion 15 512GB SSD,44300,Good,HP,HP Pavilion 15,512,1.5,Kathmandu,,6.0,18,65147.06,0.32,0.6799999999999999,0.6,86.5234375,0,5
+Laptop,MSI Modern 14 512GB SSD,56300,Excellent,MSI,MSI Modern 14,512,1.0,Chabahil,,8.0,12,68658.54,0.18,0.8200000000000001,0.8,109.9609375,0,13
+Mobile,Nokia G42 128GB,9900,Good,Nokia,Nokia G42,128,2.0,Hetauda,,6.0,24,15468.75,0.36,0.64,0.6,77.34375,1,0
+Mobile,Redmi Note 12 64GB,15900,Excellent,Redmi,Redmi Note 12,64,1.0,Boudha,,8.0,12,19390.24,0.18,0.8200000000000001,0.8,248.4375,1,12
+Mobile,Apple iPhone 15 512GB,151000,Like New,Apple,iPhone 15,512,1.0,Nepalgunj,,9.0,12,173563.22,0.13,0.87,0.9,294.921875,1,1
+Mobile,Samsung Galaxy A54 128GB,28600,Like New,Samsung,Galaxy A54,128,3.0,Koteshwor,,9.0,36,40281.69,0.29,0.71,0.9,223.4375,1,3
+Mobile,Apple iPhone 12 128GB,82500,Like New,Apple,iPhone 12,128,0.5,Kalanki,,9.0,6,90659.34,0.09,0.91,0.9,644.53125,1,1
+Laptop,Asus ROG Strix G15 2000GB SSD,197200,New,Asus,Asus ROG Strix G15,2000,1.0,Nepalgunj,,10.0,12,214347.83,0.08,0.92,1.0,98.6,0,4
+Mobile,Redmi 13C 128GB,10100,Excellent,Redmi,Redmi 13C,128,1.5,Lalitpur,,8.0,18,12948.72,0.22,0.78,0.8,78.90625,1,12
+Laptop,HP Victus 15 1000GB SSD,44700,Fair,HP,HP Victus 15,1000,2.5,Nepalgunj,,5.0,30,81272.73,0.45,0.55,0.5,44.7,0,5
+Mobile,Samsung Galaxy S21 128GB,63200,Excellent,Samsung,Galaxy S21,128,0.5,Pokhara,,8.0,6,73488.37,0.14,0.86,0.8,493.75,1,3
+Mobile,Oppo Reno 10 256GB,34200,Good,Oppo,Oppo Reno 10,256,1.5,Dharan,,6.0,18,50294.12,0.32,0.6799999999999999,0.6,133.59375,1,11
+Laptop,Lenovo Legion 5 512GB SSD,93800,Excellent,Lenovo,Lenovo Legion 5,512,1.0,Biratnagar,,8.0,12,114390.24,0.18,0.8200000000000001,0.8,183.203125,0,6
+Laptop,Lenovo IdeaPad Slim 3 1000GB SSD,65800,New,Lenovo,Lenovo IdeaPad Slim 3,1000,0.0,Biratnagar,,10.0,0,69263.16,0.05,0.95,1.0,65.8,0,6
+Laptop,HP Victus 15 1000GB SSD,88000,Like New,HP,HP Victus 15,1000,1.0,New Road,,9.0,12,101149.43,0.13,0.87,0.9,88.0,0,5
