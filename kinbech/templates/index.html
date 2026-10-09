@@ -1,7 +1,67 @@
-{% extends 'base.html' %} {% block content %}
-<section class="hero">
-  <h2>Find a fair price for second-hand items</h2>
-  <p>KinBech uses {{ total_listings }} listings from the project dataset to estimate prices for {{ categories | join(', ') }}.</p>
-  <a class="btn-primary" href="/predict">Estimate a price</a>
-</section>
+<!-- templates/index.html -->
+{% extends 'base.html' %} {% block title %}KinBech - Home{% endblock %} {% block
+content %}
+<div class="container-lg">
+  <section class="hero text-center mb-5 pt-5">
+    <h1 class="display-4 fw-bold mb-3">
+      <span class="gradient-text">Fair Price for Every Item</span>
+    </h1>
+    <p class="lead text-muted mb-4">
+      KinBech uses AI & Machine Learning to predict the fair market price of
+      second-hand items. Get accurate valuations in seconds.
+    </p>
+    <div class="d-flex gap-3 justify-content-center">
+      <a href="/predict" class="btn btn-primary btn-lg">Start Prediction</a>
+      <a href="/dashboard" class="btn btn-outline-primary btn-lg"
+        >View Analytics</a
+      >
+    </div>
+  </section>
+
+  <section class="features row g-4 mb-5">
+    <div class="col-md-4">
+      <div class="feature-card p-4 rounded-3 bg-light">
+        <div class="feature-icon mb-3">🤖</div>
+        <h5>AI-Powered</h5>
+        <p>99.55% accurate predictions using Random Forest machine learning</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card p-4 rounded-3 bg-light">
+        <div class="feature-icon mb-3">⚡</div>
+        <h5>Instant Results</h5>
+        <p>Get price predictions instantly with comparable market listings</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card p-4 rounded-3 bg-light">
+        <div class="feature-icon mb-3">📊</div>
+        <h5>Market Insights</h5>
+        <p>Explore market trends and pricing analytics in real-time</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works bg-light p-5 rounded-3">
+    <h3 class="text-center mb-4">How It Works</h3>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <div class="step-number">1</div>
+        <p><strong>Enter Item Details</strong></p>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="step-number">2</div>
+        <p><strong>AI Analyzes Market</strong></p>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="step-number">3</div>
+        <p><strong>Get Fair Price</strong></p>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="step-number">4</div>
+        <p><strong>Compare Listings</strong></p>
+      </div>
+    </div>
+  </section>
+</div>
 {% endblock %}

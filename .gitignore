@@ -1,2 +1,5 @@
+# Ignore the virtual environment folder
+kinbech_env/
+
+# Ignore the environment variables file
 .venv
-kinbech.env/*
