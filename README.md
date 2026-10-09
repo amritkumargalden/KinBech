@@ -31,3 +31,23 @@ Set-Location .\kinbech
 
 The server is configured for local development. Do not expose Flask's debug
 server to the public internet.
+
+## Run the EverSales + KinBech experience
+
+EverSales remains the marketplace frontend and PHP/MySQL backend. Its
+**Price Predictor** page calls the KinBech model service for category options
+and predictions. From the project root, start each local development server:
+
+```powershell
+php -S 127.0.0.1:8000 -t .\eversales
+.\.venv\Scripts\python.exe .\kinbech\app.py
+```
+
+Open <http://127.0.0.1:8000/frontend/index.html> and choose **Price Predictor**.
+The predictor defaults to the KinBech API at `http://127.0.0.1:5000`; update
+the `kinbech-api-base` meta value in
+`eversales/frontend/price-predictor.html` when the model service uses a
+different address. For a different EverSales web origin, set
+`EVERSALES_ORIGINS` to a comma-separated list of allowed origins before
+starting KinBech. The local predictor API does not use credentials; configure
+HTTPS and a production origin policy before deploying it.

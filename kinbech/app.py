@@ -1,6 +1,7 @@
 # app.py
 import os
 import pickle
+import math
 from datetime import datetime
 import logging
 
@@ -54,6 +55,7 @@ except Exception as e:
     logger.error(f"Fatal error loading models: {e}")
     MODEL = None
     DATASET = pd.DataFrame()
+prediction_count = 0
 
 # ==================== Helper Functions ====================
 def get_comparable_listings(category, price, limit=5):
@@ -77,24 +79,33 @@ def get_comparable_listings(category, price, limit=5):
 def validate_prediction_input(data):
     """Validate user input."""
     errors = []
+    category = str(data.get('category', '')).strip()
+    condition = str(data.get('condition', '')).strip()
 
-    try:
-        original_price = float(data.get('original_price', 0))
-        age_years = float(data.get('age_years', 0))
-        condition = float(data.get('condition', 0))
+    available_categories = set(DATASET['Category'].dropna().astype(str)) if not DATASET.empty else set()
+    available_conditions = set(DATASET['Condition'].dropna().astype(str)) if not DATASET.empty else set()
+    if category not in available_categories:
+        errors.append("Select a category from the available options")
+    if condition not in available_conditions:
+        errors.append("Select a condition from the available options")
 
-        if original_price <= 0:
-            errors.append("Original price must be greater than 0")
-        if original_price > 10_000_000:
-            errors.append("Price seems unrealistic (> 10M NPR)")
-
-        if age_years < 0 or age_years > 50:
-            errors.append("Age must be between 0 and 50 years")
-
-        if condition < 1 or condition > 10:
-            errors.append("Condition score must be between 1 and 10")
-    except ValueError:
-        errors.append("Invalid input format — please use numbers")
+    for name, label, minimum, maximum, required in (
+        ('storage_gb', 'Storage', 0, 100_000, False),
+        ('age_years', 'Age', 0, 50, True),
+        ('original_price', 'Original price', 0, 10_000_000, False),
+    ):
+        raw_value = data.get(name)
+        if required and (raw_value is None or raw_value == ''):
+            errors.append(f"{label} is required")
+            continue
+        try:
+            value = float(raw_value or 0)
+            if not math.isfinite(value):
+                raise ValueError
+            if value < minimum or value > maximum:
+                errors.append(f"{label} must be between {minimum:,} and {maximum:,}")
+        except (TypeError, ValueError):
+            errors.append(f"{label} must be a valid number")
 
     return errors
 
@@ -105,7 +116,6 @@ def _prediction_features(form_data):
     condition = str(form_data.get('condition', '')).strip()
     storage_gb = float(form_data.get('storage_gb', 0) or 0)
     age_years = float(form_data.get('age_years', 0) or 0)
-    original_price = float(form_data.get('original_price', 0) or 0)
 
     if not category:
         raise ValueError('Category is required')
@@ -117,8 +127,14 @@ def _prediction_features(form_data):
         'Condition': condition,
         'Storage_GB': storage_gb,
         'Age_years': age_years,
-        'Price_NPR': original_price,
     }
+
+
+def _predict_price(feature_values):
+    feature_row = pd.DataFrame([feature_values])
+    return float(MODEL.predict(
+        feature_row[['Category', 'Condition', 'Storage_GB', 'Age_years']]
+    )[0])
 
 
 # ==================== Routes ====================
@@ -126,14 +142,21 @@ def _prediction_features(form_data):
 def home():
     """Homepage."""
     total_listings = len(DATASET) if not DATASET.empty else 0
-    total_predictions = 0
+    total_predictions = prediction_count
     return render_template('index.html', total_listings=total_listings, total_predictions=total_predictions)
 
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     """Price prediction page."""
+    global prediction_count
     categories = sorted(DATASET['Category'].unique().tolist()) if not DATASET.empty else []
+    conditions = []
+    if not DATASET.empty:
+        condition_data = DATASET[['Condition', 'Condition_Score']].dropna()
+        conditions = condition_data.sort_values(
+            'Condition_Score', ascending=False
+        )['Condition'].drop_duplicates().tolist()
     top_brands = DATASET['Brand'].value_counts().head(5).index.tolist() if not DATASET.empty else []
     top_categories = DATASET['Category'].value_counts().head(5).index.tolist() if not DATASET.empty else []
     popular_products = DATASET['Model'].value_counts().head(5).index.tolist() if not DATASET.empty else []
@@ -142,6 +165,7 @@ def predict():
         return render_template(
             'predict.html',
             categories=categories,
+            conditions=conditions,
             top_brands=top_brands,
             top_categories=top_categories,
             popular_products=popular_products,
@@ -153,29 +177,30 @@ def predict():
                 'predict.html',
                 error='Model is unavailable. Please retrain the model first.',
                 categories=categories,
+                conditions=conditions,
                 top_brands=top_brands,
                 top_categories=top_categories,
                 popular_products=popular_products,
             ), 503
-
         try:
-            data = _prediction_features(request.form)
             validation_errors = validate_prediction_input(request.form)
             if validation_errors:
                 return render_template(
                     'predict.html',
                     error='; '.join(validation_errors),
                     categories=categories,
+                    conditions=conditions,
                     top_brands=top_brands,
                     top_categories=top_categories,
                     popular_products=popular_products,
                 ), 400
 
-            feature_row = pd.DataFrame([data])
-            predicted_price = float(MODEL.predict(feature_row[['Category', 'Condition', 'Storage_GB', 'Age_years']])[0])
-            original_price = float(data['Price_NPR'])
-            depreciation_pct = round(max(0.0, ((original_price - predicted_price) / original_price) * 100), 2) if original_price else 0.0
-            comparables = get_comparable_listings(data['Category'], original_price, limit=5)
+            data = _prediction_features(request.form)
+            predicted_price = _predict_price(data)
+            original_price = float(request.form.get('original_price', 0) or 0)
+            depreciation_pct = round(((original_price - predicted_price) / original_price) * 100, 2) if original_price else 0.0
+            comparables = get_comparable_listings(data['Category'], predicted_price, limit=5)
+            prediction_count += 1
 
             return render_template(
                 'results.html',
@@ -193,10 +218,101 @@ def predict():
                 'predict.html',
                 error=f"Error: {str(e)}",
                 categories=categories,
+                conditions=conditions,
                 top_brands=top_brands,
                 top_categories=top_categories,
                 popular_products=popular_products,
             ), 500
+
+
+@app.route('/api/options', methods=['GET', 'OPTIONS'])
+def prediction_options():
+    """Return categories and conditions accepted by the trained model."""
+    if request.method == 'OPTIONS':
+        return ('', 204)
+    if DATASET.empty:
+        return jsonify({'error': 'No prediction data is available'}), 503
+
+    conditions = DATASET[['Condition', 'Condition_Score']].dropna()
+    conditions = conditions.sort_values('Condition_Score', ascending=False)
+    return jsonify({
+        'categories': sorted(DATASET['Category'].dropna().astype(str).unique().tolist()),
+        'conditions': conditions['Condition'].astype(str).drop_duplicates().tolist(),
+    })
+
+
+@app.route('/api/predict', methods=['POST', 'OPTIONS'])
+def predict_api():
+    """Return a price estimate for the EverSales storefront."""
+    global prediction_count
+    if request.method == 'OPTIONS':
+        return ('', 204)
+    if MODEL is None:
+        return jsonify({'error': 'The prediction model is unavailable'}), 503
+
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        return jsonify({'error': 'Send prediction details as a JSON object'}), 400
+
+    errors = validate_prediction_input(data)
+    if errors:
+        return jsonify({'error': '; '.join(errors), 'validation_errors': errors}), 400
+
+    try:
+        feature_values = _prediction_features(data)
+        predicted_price = _predict_price(feature_values)
+        original_price = float(data.get('original_price') or 0)
+        depreciation_pct = (
+            round(((original_price - predicted_price) / original_price) * 100, 2)
+            if original_price else None
+        )
+        comparables = get_comparable_listings(
+            feature_values['Category'], predicted_price, limit=5
+        )
+        prediction_count += 1
+
+        return jsonify({
+            'predicted_price': round(predicted_price, 2),
+            'original_price': original_price or None,
+            'depreciation_pct': depreciation_pct,
+            'category': feature_values['Category'],
+            'condition': feature_values['Condition'],
+            'age_years': feature_values['Age_years'],
+            'comparables': [
+                {
+                    'title': str(item['Title']),
+                    'price_npr': float(item['Price_NPR']),
+                    'condition_score': float(item['Condition_Score']),
+                    'age_years': float(item['Age_years']),
+                    'brand': str(item['Brand']),
+                }
+                for item in comparables
+            ],
+        })
+    except Exception as e:
+        logger.exception("Prediction API error")
+        return jsonify({'error': 'Could not calculate a price estimate'}), 500
+
+
+@app.after_request
+def allow_storefront_prediction_requests(response):
+    """Expose the public, non-personalized prediction API to the EverSales UI."""
+    if request.path.startswith('/api/'):
+        allowed_origins = {
+            origin.strip()
+            for origin in os.getenv(
+                'EVERSALES_ORIGINS',
+                'http://127.0.0.1:8000,http://localhost:8000',
+            ).split(',')
+            if origin.strip()
+        }
+        origin = request.headers.get('Origin')
+        if origin in allowed_origins:
+            response.headers['Access-Control-Allow-Origin'] = origin
+            response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+            response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+            response.vary.add('Origin')
+    return response
 
 
 @app.route('/dashboard')
@@ -284,4 +400,4 @@ def server_error(error):
 
 # ==================== Run App ====================
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=app.config['DEBUG'])
+    app.run(host='127.0.0.1', port=5000, debug=app.config['DEBUG'])

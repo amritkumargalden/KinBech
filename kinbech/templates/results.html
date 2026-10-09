@@ -8,7 +8,9 @@ block content %}
     <div class="results-left">
       <div class="result-item">
         <label>Original Price</label>
-        <div class="result-value">Rs {{ "%.2f"|format(original_price) }}</div>
+        <div class="result-value">
+          {% if original_price %}Rs {{ "%.2f"|format(original_price) }}{% else %}Not provided{% endif %}
+        </div>
       </div>
 
       <div class="result-item">
@@ -23,15 +25,21 @@ block content %}
 
       <div class="result-item">
         <label>Condition</label>
-        <div class="result-value">{{ condition }} / 10</div>
+        <div class="result-value">{{ condition }}</div>
       </div>
     </div>
 
     <div class="results-right">
       <div class="predicted-box">
-        <p class="predicted-label">Fair Market Price</p>
+        <p class="predicted-label">Estimated Listing Price</p>
         <p class="predicted-value">Rs {{ "%.2f"|format(predicted_price) }}</p>
-        <p class="depreciation">Depreciation: {{ depreciation_pct }}%</p>
+        <p class="depreciation">
+          {% if depreciation_pct >= 0 %}
+          Estimated depreciation: {{ depreciation_pct }}%
+          {% else %}
+          Estimate is {{ (depreciation_pct * -1)|round(2) }}% above the original price
+          {% endif %}
+        </p>
       </div>
     </div>
   </div>
