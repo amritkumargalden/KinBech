@@ -1,67 +1,37 @@
 <!-- templates/dashboard.html -->
-{% extends 'base.html' %} {% block title %}KinBech - Dashboard{% endblock %} {%
-block content %}
-<div class="container-lg">
-  <h2 class="mb-4">📊 Market Analytics Dashboard</h2>
+{% extends 'base.html' %} {% block title %}Dashboard{% endblock %} {% block
+content %}
+<div class="dashboard-card">
+  <h3>Market Analytics Dashboard</h3>
 
-  <!-- Statistics Cards -->
-  <div class="row g-4 mb-5">
-    <div class="col-md-3">
-      <div class="stat-card p-4 rounded-3 bg-light">
-        <div class="stat-icon mb-3">📈</div>
-        <p class="text-muted">Total Items</p>
-        <h3 class="gradient-text">{{ stats.total_listings }}</h3>
-      </div>
+  <div class="home-stats">
+    <div class="stat">
+      <div class="stat-number">{{ stats.total_listings }}</div>
+      <div class="stat-label">Total Items</div>
     </div>
-    <div class="col-md-3">
-      <div class="stat-card p-4 rounded-3 bg-light">
-        <div class="stat-icon mb-3">💰</div>
-        <p class="text-muted">Average Price</p>
-        <h3 class="gradient-text">Rs {{ "%.0f"|format(stats.avg_price) }}</h3>
-      </div>
+    <div class="stat">
+      <div class="stat-number">Rs {{ "%.0f"|format(stats.avg_price) }}</div>
+      <div class="stat-label">Average Price</div>
     </div>
-    <div class="col-md-3">
-      <div class="stat-card p-4 rounded-3 bg-light">
-        <div class="stat-icon mb-3">📉</div>
-        <p class="text-muted">Min Price</p>
-        <h3 class="gradient-text">Rs {{ "%.0f"|format(stats.min_price) }}</h3>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="stat-card p-4 rounded-3 bg-light">
-        <div class="stat-icon mb-3">📊</div>
-        <p class="text-muted">Max Price</p>
-        <h3 class="gradient-text">Rs {{ "%.0f"|format(stats.max_price) }}</h3>
-      </div>
+    <div class="stat">
+      <div class="stat-number">{{ stats.avg_condition|round(1) }}</div>
+      <div class="stat-label">Average Condition</div>
     </div>
   </div>
 
-  <!-- Additional Stats -->
-  <div class="row g-4">
-    <div class="col-md-6">
-      <div class="card shadow-lg border-0">
-        <div class="card-body p-4">
-          <h5 class="mb-3">Average Item Condition</h5>
-          <div class="progress mb-2" style="height: 25px">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: {{ (stats.avg_condition / 10) * 100 }}%;"
-            >
-              {{ "%.1f"|format(stats.avg_condition) }}/10
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="card shadow-lg border-0">
-        <div class="card-body p-4">
-          <h5 class="mb-3">Average Item Age</h5>
-          <p class="lead mb-0">{{ "%.1f"|format(stats.avg_age) }} years</p>
-        </div>
-      </div>
-    </div>
+  <div class="home-section">
+    <h4>Price Range</h4>
+    <p><strong>Minimum:</strong> Rs {{ "%.2f"|format(stats.min_price) }}</p>
+    <p><strong>Maximum:</strong> Rs {{ "%.2f"|format(stats.max_price) }}</p>
   </div>
+</div>
+{% endblock %} {% block right_panel %}
+<div class="panel-box">
+  <h4>Dashboard Stats</h4>
+  <ul>
+    <li>Average Age: {{ stats.avg_age|round(1) }} years</li>
+    <li>Categories: Multiple</li>
+    <li>Last Updated: Today</li>
+  </ul>
 </div>
 {% endblock %}

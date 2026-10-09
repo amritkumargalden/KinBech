@@ -1,93 +1,119 @@
 <!-- templates/predict.html -->
-{% extends 'base.html' %}
+{% extends 'base.html' %} {% block title %}Predict Price{% endblock %} {% block
+content %}
+<div class="predict-card">
+  <h3>Second Hand Product Price Calculator</h3>
 
-{% block title %}KinBech - Predict Price{% endblock %}
+  {% if error %}
+  <div class="error-message"><strong>Error:</strong> {{ error }}</div>
+  {% endif %}
 
-{% block content %}
-<div class="container-lg">
-    <div class="row justify-content-center">
-        <div class="col-lg-6">
-            <div class="card shadow-lg border-0">
-                <div class="card-header bg-gradient text-white p-4">
-                    <h3 class="mb-0">📦 Predict Your Item's Fair Price</h3>
-                </div>
-                
-                <div class="card-body p-4">
-                    {% if error %}
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <strong>⚠️ Error:</strong> {{ error }}
-                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                    </div>
-                    {% endif %}
-                    
-                    <form method="POST" action="/predict" id="predictionForm">
-                        <div class="mb-3">
-                            <label for="original_price" class="form-label">
-                                <strong>Original Purchase Price (NPR)</strong>
-                            </label>
-                            <div class="input-group">
-                                <span class="input-group-text">Rs</span>
-                                <input type="number" class="form-control" id="original_price" 
-                                       name="original_price" placeholder="50000" 
-                                       required min="100" step="100">
-                            </div>
-                            <small class="text-muted">What did you originally pay?</small>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label for="age_years" class="form-label">
-                                <strong>Item Age (Years)</strong>
-                            </label>
-                            <input type="number" class="form-control" id="age_years" 
-                                   name="age_years" placeholder="2" required min="0" max="50" step="0.1">
-                            <small class="text-muted">How long have you owned it?</small>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label for="condition" class="form-label">
-                                <strong>Condition Score: <span id="conditionValue">5</span>/10</strong>
-                            </label>
-                            <input type="range" class="form-range" id="condition" 
-                                   name="condition" min="1" max="10" value="5">
-                            <div class="d-flex justify-content-between small text-muted">
-                                <span>Poor</span>
-                                <span>Excellent</span>
-                            </div>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label for="storage_gb" class="form-label">
-                                <strong>Storage (GB)</strong> - <em>Optional, for electronics</em>
-                            </label>
-                            <input type="number" class="form-control" id="storage_gb" 
-                                   name="storage_gb" placeholder="256" min="0" step="1">
-                        </div>
-                        
-                        <div class="mb-4">
-                            <label for="category" class="form-label">
-                                <strong>Category</strong>
-                            </label>
-                            <select class="form-select" id="category" name="category" required>
-                                <option value="">Select a category...</option>
-                                {% for cat in categories %}
-                                <option value="{{ cat }}">{{ cat }}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-lg w-100">
-                            🔮 Predict Fair Price
-                        </button>
-                    </form>
-                </div>
-            </div>
+  <form method="POST" action="/predict" class="prediction-form">
+    <div class="grid-form">
+      <div class="form-group">
+        <label for="category">Category</label>
+        <select id="category" name="category" required>
+          <option value="">Select Category</option>
+          {% for cat in categories %}
+          <option value="{{ cat }}">{{ cat }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="brand">Brand</label>
+        <input
+          type="text"
+          id="brand"
+          name="brand"
+          placeholder="e.g., Apple, Samsung"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="original_price">Original Price (NPR)</label>
+        <input
+          type="number"
+          id="original_price"
+          name="original_price"
+          placeholder="50000"
+          required
+          min="100"
+          step="100"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="age_years">Age (Years)</label>
+        <input
+          type="number"
+          id="age_years"
+          name="age_years"
+          placeholder="2"
+          required
+          min="0"
+          max="50"
+          step="0.1"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="condition">Condition (1-10)</label>
+        <input
+          type="range"
+          id="condition"
+          name="condition"
+          min="1"
+          max="10"
+          value="5"
+          class="range-slider"
+        />
+        <div class="condition-display">
+          <span id="conditionValue">5</span> / 10
         </div>
+      </div>
+
+      <div class="form-group">
+        <label for="storage_gb">Storage (GB) - Optional</label>
+        <input
+          type="number"
+          id="storage_gb"
+          name="storage_gb"
+          placeholder="256"
+          min="0"
+          step="1"
+        />
+      </div>
     </div>
+
+    <button type="submit" class="btn-primary">Check Your Price</button>
+  </form>
+</div>
+{% endblock %} {% block right_panel %}
+<div class="panel-box">
+  <h4>Top Brands</h4>
+  <ul class="brand-list">
+    {% for brand in top_brands %}
+    <li>{{ brand }}</li>
+    {% endfor %}
+  </ul>
 </div>
 
-<script>
-document.getElementById('condition').addEventListener('input', function() {
-    document.getElementById('conditionValue').textContent = this.value;
-});
-</script>
+<div class="panel-box">
+  <h4>Popular Products</h4>
+  <ul class="product-list">
+    {% for product in popular_products %}
+    <li>{{ product }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="panel-box">
+  <h4>Categories</h4>
+  <ul class="category-list">
+    {% for cat in top_categories %}
+    <li>{{ cat }}</li>
+    {% endfor %}
+  </ul>
+</div>
 {% endblock %}

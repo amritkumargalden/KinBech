@@ -1,0 +1,12 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^\\.\\\\kinbech_env\\\\Scripts\\\\python\\.exe -c \"import pandas as pd; df=pd\\.read_csv\\(r'\\.\\\\Data\\\\data\\\\processed_dataset\\.csv'\\); print\\(df\\.columns\\.tolist\\(\\)\\); print\\(df\\.head\\(3\\)\\.to_dict\\(orient='records'\\)\\[0\\]\\); print\\(df\\.shape\\)\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^cd \"c:\\\\Users\\\\amrit\\\\Desktop\\\\Bachelor\\\\BIT6\\\\Project VI\\\\NewCOde\\\\kinbech\"; \\.\\.\\\\kinbech_env\\\\Scripts\\\\python\\.exe -m unittest discover -s tests -v$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}

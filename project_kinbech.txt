@@ -1,0 +1,41 @@
+Project Objective
+Build KinBech — an accurate, reliable, and easy-to-use second-hand product value predictor and
+marketplace assistant. The system will estimate fair market prices for used items (electronics, vehicles,
+furniture, appliances, etc.) using a validated machine learning model and present actionable pricing
+guidance and comparable listings to help sellers and buyers make informed decisions.
+Primary Goals
+• Provide a trustworthy single-number fair market price for listed second-hand items.
+• Surface comparable market listings from the dataset to justify the prediction.
+• Offer a simple, professional web interface optimized for fast valuation workflows.
+• Ensure repeatable, auditable model training and a deployment-ready pipeline.
+• Enable easy maintenance and future feature expansion (auth, analytics, retraining).
+Core Features (Minimum Viable Product)
+• Price Prediction Endpoint: Accepts item attributes and returns predicted fair price.
+• Web Form UI: Clean 3-column layout with left navigation, central prediction form, and right panel
+for top brands and popular products.
+• Preprocessing Pipeline: Robust cleaning, parsing, feature engineering, categorical encoding, and
+scaling for the provided CSV dataset.
+• Trained Model Artifacts: Persisted model, scaler, encoders, and feature column list for inference.
+• Comparable Listings: Query and display nearest market listings from the processed dataset.
+• Basic Analytics Dashboard: Summary metrics (total listings, avg/min/max price, avg age, avg
+condition).
+• Logging: Store prediction requests and results for auditing and retraining triggers.
+• Unit Tests: Coverage for preprocessing, model inference, and API/form validation.
+Recommended Additional Features (Post-MVP)
+• User Accounts & History: Authentication, user profiles, and saved prediction history.
+• Listing Management: Allow users to create, edit, and publish item listings to a marketplace database.
+• Confidence & Explanation: Show prediction confidence, key feature contributions (feature
+importance or SHAP summary), and suggested price range.
+• Automated Retraining Pipeline: Periodic retraining with new data, validation checks, and model
+versioning.
+• Advanced Search & Filters: Browse products with filters (brand, category, price range, condition).
+• Export & API Access: Provide JSON API for programmatic access and CSV export of results.
+• Photo Upload & Image Features: Accept images and extract simple visual signals (e.g., damage
+detection) to improve predictions.
+• Multi-language / Localization: Support Nepali and English labels and number formats.
+Non-Functional Requirements
+• Performance: Prediction latency < 300ms for a single request (after model load).
+• Scalability: Stateless model server compatible with container orchestration (Docker/Kubernetes).
+• Security: Input validation, rate limiting, and secure storage for any user credentials.
+• Reliability: Health-check endpoints and graceful error handling; model and dataset existence
+verified at startup.

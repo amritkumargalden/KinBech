@@ -1,96 +1,92 @@
 <!-- templates/results.html -->
-{% extends 'base.html' %} {% block title %}KinBech - Prediction Results{%
-endblock %} {% block content %}
-<div class="container-lg">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <!-- Prediction Result Card -->
-      <div class="card shadow-lg border-0 mb-4">
-        <div class="card-header bg-gradient text-white p-4">
-          <h3 class="mb-0">✅ Prediction Results</h3>
-        </div>
+{% extends 'base.html' %} {% block title %}Prediction Results{% endblock %} {%
+block content %}
+<div class="results-card">
+  <h3>Price Prediction Results</h3>
 
-        <div class="card-body p-5">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <p class="text-muted mb-2">Your Original Price</p>
-              <h4 class="mb-4">Rs {{ "%.2f"|format(original_price) }}</h4>
-
-              <p class="text-muted mb-2">Item Details</p>
-              <ul class="list-unstyled small">
-                <li>📂 <strong>Category:</strong> {{ category }}</li>
-                <li>📅 <strong>Age:</strong> {{ age_years }} years</li>
-                <li>⭐ <strong>Condition:</strong> {{ condition }}/10</li>
-              </ul>
-            </div>
-
-            <div class="col-md-6">
-              <div class="prediction-box bg-light p-4 rounded-3 text-center">
-                <p class="text-muted mb-2">Fair Market Price</p>
-                <h1 class="gradient-text fw-bold mb-3">
-                  Rs {{ "%.2f"|format(predicted_price) }}
-                </h1>
-                <div class="badge bg-warning text-dark px-3 py-2">
-                  📉 {{ depreciation_pct }}% Depreciation
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <hr class="my-4" />
-
-          <div class="alert alert-info" role="alert">
-            <strong>💡 Pro Tip:</strong> List your item at
-            <strong>Rs {{ "%.2f"|format(predicted_price * 0.95) }}</strong>
-            to
-            <strong>Rs {{ "%.2f"|format(predicted_price) }}</strong> for faster
-            sales.
-          </div>
-
-          <a href="/predict" class="btn btn-primary">← Predict Another Item</a>
-        </div>
+  <div class="results-layout">
+    <div class="results-left">
+      <div class="result-item">
+        <label>Original Price</label>
+        <div class="result-value">Rs {{ "%.2f"|format(original_price) }}</div>
       </div>
 
-      <!-- Comparable Listings -->
-      {% if comparable_listings %}
-      <div class="card shadow-lg border-0">
-        <div class="card-header bg-gradient text-white p-4">
-          <h5 class="mb-0">📊 Comparable Market Listings</h5>
-        </div>
-
-        <div class="table-responsive">
-          <table class="table table-hover mb-0">
-            <thead class="table-light">
-              <tr>
-                <th>Item</th>
-                <th>Price (NPR)</th>
-                <th>Condition</th>
-                <th>Age (years)</th>
-                <th>Brand</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for listing in comparable_listings %}
-              <tr>
-                <td>
-                  <strong>{{ listing.Title[:40] }}...</strong>
-                </td>
-                <td>Rs {{ "%.2f"|format(listing.Price_NPR) }}</td>
-                <td>
-                  <span class="badge bg-secondary">
-                    {{ listing.Condition_Score }}/10
-                  </span>
-                </td>
-                <td>{{ listing.Age_years }}</td>
-                <td>{{ listing.Brand }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
+      <div class="result-item">
+        <label>Category</label>
+        <div class="result-value">{{ category }}</div>
       </div>
-      {% endif %}
+
+      <div class="result-item">
+        <label>Age</label>
+        <div class="result-value">{{ age_years }} years</div>
+      </div>
+
+      <div class="result-item">
+        <label>Condition</label>
+        <div class="result-value">{{ condition }} / 10</div>
+      </div>
+    </div>
+
+    <div class="results-right">
+      <div class="predicted-box">
+        <p class="predicted-label">Fair Market Price</p>
+        <p class="predicted-value">Rs {{ "%.2f"|format(predicted_price) }}</p>
+        <p class="depreciation">Depreciation: {{ depreciation_pct }}%</p>
+      </div>
     </div>
   </div>
+
+  {% if comparable_listings %}
+  <div class="comparables-section">
+    <h4>Comparable Market Listings</h4>
+    <table class="comparables-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price (NPR)</th>
+          <th>Condition</th>
+          <th>Age (years)</th>
+          <th>Brand</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for listing in comparable_listings %}
+        <tr>
+          <td>{{ listing.Title[:50] }}</td>
+          <td>Rs {{ "%.2f"|format(listing.Price_NPR) }}</td>
+          <td>{{ listing.Condition_Score }}/10</td>
+          <td>{{ listing.Age_years }}</td>
+          <td>{{ listing.Brand }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <div class="action-buttons">
+    <a href="/predict" class="btn-secondary">Check Another Price</a>
+    <button class="btn-primary">List Your Item</button>
+  </div>
+</div>
+{% endblock %} {% block right_panel %}
+<div class="panel-box">
+  <h4>Suggested Price Range</h4>
+  <div class="price-range">
+    <p class="range-label">Minimum</p>
+    <p class="range-value">Rs {{ "%.2f"|format(predicted_price * 0.90) }}</p>
+    <p class="range-label" style="margin-top: 15px">Maximum</p>
+    <p class="range-value">Rs {{ "%.2f"|format(predicted_price * 1.05) }}</p>
+  </div>
+</div>
+
+<div class="panel-box">
+  <h4>Quick Tips</h4>
+  <ul class="tips-list">
+    <li>List slightly below market price for faster sales</li>
+    <li>Include high-quality photos</li>
+    <li>Mention any defects clearly</li>
+    <li>Respond quickly to inquiries</li>
+  </ul>
 </div>
 {% endblock %}

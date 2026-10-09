@@ -1,67 +1,65 @@
 <!-- templates/index.html -->
-{% extends 'base.html' %} {% block title %}KinBech - Home{% endblock %} {% block
-content %}
-<div class="container-lg">
-  <section class="hero text-center mb-5 pt-5">
-    <h1 class="display-4 fw-bold mb-3">
-      <span class="gradient-text">Fair Price for Every Item</span>
-    </h1>
-    <p class="lead text-muted mb-4">
-      KinBech uses AI & Machine Learning to predict the fair market price of
-      second-hand items. Get accurate valuations in seconds.
+{% extends 'base.html' %} {% block title %}Home{% endblock %} {% block content
+%}
+<div class="home-card">
+  <h3>Welcome to Second Hand Product Value Predictor</h3>
+  <p>Get accurate valuations for your second-hand items in seconds.</p>
+
+  <div class="home-stats">
+    <div class="stat">
+      <div class="stat-number">{{ total_listings }}</div>
+      <div class="stat-label">Items Analyzed</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">{{ total_predictions }}</div>
+      <div class="stat-label">Predictions Made</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">99.55%</div>
+      <div class="stat-label">Model Accuracy</div>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <h4>How to Use</h4>
+    <ol class="steps">
+      <li>
+        <strong>Enter Item Details</strong> - Select category, brand, and
+        original price
+      </li>
+      <li>
+        <strong>Rate Condition</strong> - Assess physical condition (1-10)
+      </li>
+      <li><strong>Check Price</strong> - Get instant fair market valuation</li>
+      <li><strong>List Item</strong> - Use our suggested price range</li>
+    </ol>
+  </div>
+
+  <a
+    href="/predict"
+    class="btn-primary"
+    style="display: inline-block; margin-top: 20px"
+  >
+    Start Price Prediction
+  </a>
+</div>
+{% endblock %} {% block right_panel %}
+<div class="panel-box">
+  <h4>Recent Activity</h4>
+  <div class="activity-list">
+    <p style="color: #999; text-align: center; padding: 20px 0">
+      No recent activity
     </p>
-    <div class="d-flex gap-3 justify-content-center">
-      <a href="/predict" class="btn btn-primary btn-lg">Start Prediction</a>
-      <a href="/dashboard" class="btn btn-outline-primary btn-lg"
-        >View Analytics</a
-      >
-    </div>
-  </section>
+  </div>
+</div>
 
-  <section class="features row g-4 mb-5">
-    <div class="col-md-4">
-      <div class="feature-card p-4 rounded-3 bg-light">
-        <div class="feature-icon mb-3">🤖</div>
-        <h5>AI-Powered</h5>
-        <p>99.55% accurate predictions using Random Forest machine learning</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="feature-card p-4 rounded-3 bg-light">
-        <div class="feature-icon mb-3">⚡</div>
-        <h5>Instant Results</h5>
-        <p>Get price predictions instantly with comparable market listings</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="feature-card p-4 rounded-3 bg-light">
-        <div class="feature-icon mb-3">📊</div>
-        <h5>Market Insights</h5>
-        <p>Explore market trends and pricing analytics in real-time</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="how-it-works bg-light p-5 rounded-3">
-    <h3 class="text-center mb-4">How It Works</h3>
-    <div class="row">
-      <div class="col-md-3 text-center">
-        <div class="step-number">1</div>
-        <p><strong>Enter Item Details</strong></p>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="step-number">2</div>
-        <p><strong>AI Analyzes Market</strong></p>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="step-number">3</div>
-        <p><strong>Get Fair Price</strong></p>
-      </div>
-      <div class="col-md-3 text-center">
-        <div class="step-number">4</div>
-        <p><strong>Compare Listings</strong></p>
-      </div>
-    </div>
-  </section>
+<div class="panel-box">
+  <h4>Quick Links</h4>
+  <ul>
+    <li><a href="/predict">Predict Price</a></li>
+    <li><a href="/dashboard">View Analytics</a></li>
+    <li><a href="#">View Listings</a></li>
+    <li><a href="#">Help & Support</a></li>
+  </ul>
 </div>
 {% endblock %}
