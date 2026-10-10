@@ -15,12 +15,19 @@ class Config:
 
     # Model configuration
     MODEL_PATH = str((BASE_DIR / 'models' / 'random_forest_model.pkl').resolve())
+    MODEL_METADATA_PATH = str((BASE_DIR / 'models' / 'model_metadata.json').resolve())
     SCALER_PATH = str((BASE_DIR / 'models' / 'scaler.pkl').resolve())
     ENCODER_PATH = str((BASE_DIR / 'models' / 'le_category.pkl').resolve())
     FEATURES_PATH = str((BASE_DIR / 'models' / 'feature_columns.pkl').resolve())
 
     # Dataset
     DATASET_PATH = str((PROJECT_ROOT / 'Data' / 'data' / 'processed_dataset.csv').resolve())
+
+    # Prediction audit events
+    PREDICTION_LOG_PATH = os.getenv(
+        'PREDICTION_LOG_PATH',
+        str((BASE_DIR / 'data' / 'prediction_events.sqlite3').resolve()),
+    )
 
     # Session
     PERMANENT_SESSION_LIFETIME = timedelta(hours=24)

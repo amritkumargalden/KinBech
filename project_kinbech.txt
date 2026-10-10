@@ -10,32 +10,47 @@ Primary Goals
 • Ensure repeatable, auditable model training and a deployment-ready pipeline.
 • Enable easy maintenance and future feature expansion (auth, analytics, retraining).
 Core Features (Minimum Viable Product)
-• Price Prediction Endpoint: Accepts item attributes and returns predicted fair price.
-• Web Form UI: Clean 3-column layout with left navigation, central prediction form, and right panel
-for top brands and popular products.
-• Preprocessing Pipeline: Robust cleaning, parsing, feature engineering, categorical encoding, and
-scaling for the provided CSV dataset.
-• Trained Model Artifacts: Persisted model, scaler, encoders, and feature column list for inference.
-• Comparable Listings: Query and display nearest market listings from the processed dataset.
-• Basic Analytics Dashboard: Summary metrics (total listings, avg/min/max price, avg age, avg
-condition).
-• Logging: Store prediction requests and results for auditing and retraining triggers.
-• Unit Tests: Coverage for preprocessing, model inference, and API/form validation.
+- [x] Price Prediction Endpoint: Accepts validated category, brand, condition, age, and storage details
+  and returns a predicted fair price.
+- [x] Web Form UI: Responsive 3-column layout with left navigation, central prediction form, and
+  right panel for top brands and popular products.
+- [x] Preprocessing Pipeline: Cleans and parses the provided CSV, removes exact duplicate and invalid
+  listings, and derives condition, age, and price-per-GB features. Categorical encoding and numeric
+  scaling are applied by the training/inference pipeline.
+- [x] Trained Model Artifacts: Persists a reloadable model pipeline that embeds its encoder and scaler,
+  uses Brand as a categorical feature, and includes JSON metadata with its version and feature columns.
+- [x] Comparable Listings: Queries and returns nearest listings from the processed dataset.
+- [x] Basic Analytics Dashboard: Displays total listings, average/minimum/maximum price, average age,
+  and average condition.
+- [x] Logging: Persists successful API and form prediction inputs/results, source, timestamp, and model
+  version in a local SQLite audit database; no user identity is recorded.
+- [x] Unit Tests: Covers preprocessing, persisted model training/inference, comparable API estimates,
+  API/form validation and logging, brand-sensitive estimates, price-outlier checks, market trend
+  aggregations, analytics, and health checks (17 tests passing).
 Recommended Additional Features (Post-MVP)
-• User Accounts & History: Authentication, user profiles, and saved prediction history.
-• Listing Management: Allow users to create, edit, and publish item listings to a marketplace database.
-• Confidence & Explanation: Show prediction confidence, key feature contributions (feature
-importance or SHAP summary), and suggested price range.
-• Automated Retraining Pipeline: Periodic retraining with new data, validation checks, and model
-versioning.
-• Advanced Search & Filters: Browse products with filters (brand, category, price range, condition).
-• Export & API Access: Provide JSON API for programmatic access and CSV export of results.
-• Photo Upload & Image Features: Accept images and extract simple visual signals (e.g., damage
-detection) to improve predictions.
-• Multi-language / Localization: Support Nepali and English labels and number formats.
+- [ ] User Accounts & History: Authentication, user profiles, and saved prediction history.
+- [ ] Listing Management: Allow users to create, edit, and publish item listings to a marketplace database.
+- [x] Market Trend Dashboard: Summarize and visualize median listing prices by category, popular
+  brands, item age, condition, and location, with listing counts and snapshot insights. The source
+  dataset has no listing dates, so this does not claim price-over-time trends.
+- [ ] Confidence & Explanation: Show prediction confidence, key feature contributions (feature
+  importance or SHAP summary), and suggested price range.
+- [x] Suspicious Price Outlier Check: Compare an optional asking price with at least five similar
+  listings; flag values outside 1.5×IQR fences calculated on log prices and explain the comparison
+  basis. This identifies unusual prices for review and does not claim that a listing is fraudulent.
+- [ ] Automated Retraining Pipeline: Periodic retraining with new data, validation checks, and model
+  versioning.
+- [ ] Advanced Search & Filters: Browse products with filters (brand, category, price range, condition).
+- [ ] Export & API Access: Provide JSON API for programmatic access and CSV export of results.
+- [ ] Photo Upload & Image Features: Accept images and extract simple visual signals (e.g., damage
+  detection) to improve predictions.
+- [ ] Multi-language / Localization: Support Nepali and English labels and number formats.
 Non-Functional Requirements
-• Performance: Prediction latency < 300ms for a single request (after model load).
-• Scalability: Stateless model server compatible with container orchestration (Docker/Kubernetes).
-• Security: Input validation, rate limiting, and secure storage for any user credentials.
-• Reliability: Health-check endpoints and graceful error handling; model and dataset existence
-verified at startup.
+- [x] Performance: The Brand-enabled model's locally warmed prediction API stayed below 300 ms
+  (maximum 129.68 ms across 20 requests); this is a local smoke benchmark, not a production load test.
+- [ ] Scalability: Stateless model serving and Docker/Kubernetes deployment have not been validated;
+  the audit log currently uses a local SQLite file.
+- [ ] Security: Prediction input validation is implemented; rate limiting is not. The MVP does not
+  collect user credentials, so credential storage is not applicable yet.
+- [x] Reliability: The health endpoint verifies model and dataset readiness and returns HTTP 503 if
+  either is unavailable; prediction failures are surfaced to callers.

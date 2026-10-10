@@ -19,6 +19,11 @@ block content %}
       </div>
 
       <div class="result-item">
+        <label>Brand</label>
+        <div class="result-value">{{ brand }}</div>
+      </div>
+
+      <div class="result-item">
         <label>Age</label>
         <div class="result-value">{{ age_years }} years</div>
       </div>
@@ -43,6 +48,28 @@ block content %}
       </div>
     </div>
   </div>
+
+  {% if price_analysis %}
+  <section class="price-analysis price-analysis-{{ price_analysis.status }}" aria-live="polite">
+    <h4>
+      {% if price_analysis.status == 'unusually_low' or price_analysis.status == 'unusually_high' %}
+      Price outlier to review
+      {% elif price_analysis.status == 'within_range' %}
+      Asking price check
+      {% else %}
+      Asking price check unavailable
+      {% endif %}
+    </h4>
+    <p>{{ price_analysis.message }}</p>
+    {% if price_analysis.reference_range %}
+    <p>
+      Reference range: NPR {{ "{:,.0f}".format(price_analysis.reference_range.minimum) }}
+      – {{ "{:,.0f}".format(price_analysis.reference_range.maximum) }}
+      ({{ price_analysis.sample_count }} listings; {{ price_analysis.comparison_basis|lower }}).
+    </p>
+    {% endif %}
+  </section>
+  {% endif %}
 
   {% if comparable_listings %}
   <div class="comparables-section">

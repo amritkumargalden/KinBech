@@ -2,6 +2,19 @@
 {% extends 'base.html' %} {% block title %}Predict Price{% endblock %} {% block
 content %}
 <div class="predict-card">
+  <div class="prediction-hero">
+    <div class="prediction-hero-copy">
+      <span class="prediction-eyebrow">SMARTER SECOND-HAND PRICING</span>
+      <h3>Give great tech a second life.</h3>
+      <p>Enter a few details to discover a fair, data-backed price.</p>
+    </div>
+    <img
+      src="{{ url_for('static', filename='images/price-prediction-illustration.svg') }}"
+      alt="Illustration of a laptop and phone with a rising price chart"
+      width="720"
+      height="440"
+    />
+  </div>
   <h3>Second Hand Product Price Calculator</h3>
 
   {% if error %}
@@ -22,12 +35,12 @@ content %}
 
       <div class="form-group">
         <label for="brand">Brand</label>
-        <input
-          type="text"
-          id="brand"
-          name="brand"
-          placeholder="e.g., Apple, Samsung"
-        />
+        <select id="brand" name="brand" required>
+          <option value="">Select brand</option>
+          {% for item in brands %}
+          <option value="{{ item }}">{{ item }}</option>
+          {% endfor %}
+        </select>
       </div>
 
       <div class="form-group">
@@ -39,6 +52,19 @@ content %}
           placeholder="50000"
           required
           min="100"
+          step="100"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="listing_price">Asking Price (NPR) <span>(optional; check for outliers)</span></label>
+        <input
+          type="number"
+          id="listing_price"
+          name="listing_price"
+          placeholder="e.g. 25000"
+          min="1"
+          max="10000000"
           step="100"
         />
       </div>

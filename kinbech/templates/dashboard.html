@@ -1,37 +1,127 @@
-<!-- templates/dashboard.html -->
-{% extends 'base.html' %} {% block title %}Dashboard{% endblock %} {% block
-content %}
-<div class="dashboard-card">
-  <h3>Market Analytics Dashboard</h3>
+{% extends 'base.html' %}
+{% block title %}Market Trends | KinBech{% endblock %}
+{% block content %}
+<div class="dashboard-card market-dashboard">
+  <header class="market-dashboard-header">
+    <p class="prediction-eyebrow">KINBECH MARKET INTELLIGENCE</p>
+    <h3>Market Trends Dashboard</h3>
+    <p>Explore how listing prices vary across categories, brands, condition, age, and location.</p>
+  </header>
 
-  <div class="home-stats">
-    <div class="stat">
-      <div class="stat-number">{{ stats.total_listings }}</div>
-      <div class="stat-label">Total Items</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">Rs {{ "%.0f"|format(stats.avg_price) }}</div>
-      <div class="stat-label">Average Price</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">{{ stats.avg_condition|round(1) }}</div>
-      <div class="stat-label">Average Condition</div>
-    </div>
+  <section class="market-kpis" aria-label="Market overview">
+    <article class="market-kpi">
+      <span class="market-kpi-label">Listings analysed</span>
+      <strong>{{ "{:,}".format(stats.total_listings) }}</strong>
+    </article>
+    <article class="market-kpi">
+      <span class="market-kpi-label">Median listing price</span>
+      <strong>NPR {{ "{:,.0f}".format(stats.median_price) }}</strong>
+    </article>
+    <article class="market-kpi">
+      <span class="market-kpi-label">Average listing price</span>
+      <strong>NPR {{ "{:,.0f}".format(stats.avg_price) }}</strong>
+    </article>
+    <article class="market-kpi">
+      <span class="market-kpi-label">Average item age</span>
+      <strong>{{ "%.1f"|format(stats.avg_age) }} years</strong>
+    </article>
+  </section>
+
+  {% if insights %}
+  <section class="market-insights" aria-labelledby="market-insights-title">
+    <h4 id="market-insights-title">What stands out</h4>
+    <ul>
+      {% for insight in insights %}
+      <li>{{ insight }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <div class="market-chart-grid">
+    {% macro trend_chart(title, description, rows, chart_id) %}
+    <section class="market-chart-card" aria-labelledby="{{ chart_id }}">
+      <h4 id="{{ chart_id }}">{{ title }}</h4>
+      <p class="market-chart-description">{{ description }}</p>
+      {% if rows %}
+      <ol class="trend-bars">
+        {% for row in rows %}
+        <li class="trend-bar-row">
+          <div class="trend-bar-heading">
+            <span>{{ row.label }}</span>
+            <strong>NPR {{ "{:,.0f}".format(row.median_price) }}</strong>
+          </div>
+          <div
+            class="trend-bar-track"
+            role="meter"
+            aria-label="{{ row.label }} median price relative to the highest shown"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="{{ row.bar_pct }}"
+          >
+            <span style="width: {{ row.bar_pct }}%"></span>
+          </div>
+          <span class="trend-bar-count">{{ "{:,}".format(row.listings) }} listings</span>
+        </li>
+        {% endfor %}
+      </ol>
+      {% else %}
+      <p class="market-no-data">There is not enough data for this breakdown.</p>
+      {% endif %}
+    </section>
+    {% endmacro %}
+
+    {{ trend_chart(
+      'Median price by category',
+      'Typical listing price across each product category.',
+      category_trends,
+      'category-trends-title'
+    ) }}
+    {{ trend_chart(
+      'Popular brands',
+      'Median price for the eight brands with the most listings.',
+      brand_trends,
+      'brand-trends-title'
+    ) }}
+    {{ trend_chart(
+      'Price by item age',
+      'Median price across age bands; this is a snapshot comparison, not a time series.',
+      age_trends,
+      'age-trends-title'
+    ) }}
+    {{ trend_chart(
+      'Price by condition',
+      'Median price by the dataset’s condition labels.',
+      condition_trends,
+      'condition-trends-title'
+    ) }}
+    {{ trend_chart(
+      'Popular locations',
+      'Median price for the eight locations with the most listings.',
+      location_trends,
+      'location-trends-title'
+    ) }}
   </div>
 
-  <div class="home-section">
-    <h4>Price Range</h4>
-    <p><strong>Minimum:</strong> Rs {{ "%.2f"|format(stats.min_price) }}</p>
-    <p><strong>Maximum:</strong> Rs {{ "%.2f"|format(stats.max_price) }}</p>
-  </div>
+  <p class="market-data-note">
+    Analysis uses {{ "{:,}".format(stats.total_listings) }} listings in the current dataset snapshot.
+    The source data has no listing dates, so the age chart compares item-age groups and does not show
+    price changes over calendar time. Median prices describe these listings and are not guaranteed sale prices.
+  </p>
 </div>
-{% endblock %} {% block right_panel %}
-<div class="panel-box">
-  <h4>Dashboard Stats</h4>
+{% endblock %}
+
+{% block right_panel %}
+<div class="panel-box market-sidebar-panel">
+  <h4>Market snapshot</h4>
   <ul>
-    <li>Average Age: {{ stats.avg_age|round(1) }} years</li>
-    <li>Categories: Multiple</li>
-    <li>Last Updated: Today</li>
+    <li>Average condition: {{ stats.avg_condition|round(1) }}/10</li>
+    <li>Lowest listing: NPR {{ "{:,.0f}".format(stats.min_price) }}</li>
+    <li>Highest listing: NPR {{ "{:,.0f}".format(stats.max_price) }}</li>
   </ul>
+</div>
+<div class="panel-box market-sidebar-panel">
+  <h4>How to read this</h4>
+  <p>Bars compare median prices within each breakdown. Listing counts show how much data supports each group.</p>
 </div>
 {% endblock %}

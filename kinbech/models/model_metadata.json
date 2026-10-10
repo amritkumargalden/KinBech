@@ -1,0 +1,28 @@
+{
+  "model_version": "8f81e57d4c37dd28",
+  "trained_at": "2026-10-09T21:29:04.766116+00:00",
+  "training_rows": 500,
+  "target": "Price_NPR",
+  "feature_columns": [
+    "Category",
+    "Condition",
+    "Brand",
+    "Storage_GB",
+    "Age_years"
+  ],
+  "categorical_features": [
+    "Category",
+    "Condition",
+    "Brand"
+  ],
+  "numeric_features": [
+    "Storage_GB",
+    "Age_years"
+  ],
+  "preprocessing_steps": {
+    "categorical_encoding": "OneHotEncoder(handle_unknown='ignore')",
+    "numeric_scaling": "StandardScaler"
+  },
+  "source_sha256": "b45ca6cffbc7d7e448c609804ecf0ea11ee3fd299cec49bcd0bb25f9e6705fd6",
+  "scikit_learn_version": "1.9.1"
+}
